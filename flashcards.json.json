@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ccq-001",
+    "section": "Idée directrice",
+    "question": "Que représente votre \"fréquence\" dans le contexte de l'alignement ?",
+    "answer": "Votre fréquence représente votre cohérence entre objectif, état intérieur et actions.",
+    "explanation": "Le terme 'fréquence' est utilisé comme mot pratique pour désigner l'alignement et la cohérence."
+  },
+  {
+    "id": "ccq-002",
+    "section": "Principe",
+    "question": "À quoi le monde \"répond\"-il principalement selon le principe d'alignement ?",
+    "answer": "Le monde répond surtout à ce que vous répétez (votre état dominant), pas à ce que vous espérez.",
+    "explanation": "Vos actions, émotions et croyances répétées ont plus d'impact que vos espoirs."
+  },
+  {
+    "id": "ccq-003",
+    "section": "Principe",
+    "question": "Quels éléments composent votre \"fréquence\" ou état dominant ?",
+    "answer": "Vos émotions habituelles, croyances actives, posture et standards.",
+    "explanation": "Ces éléments créent votre état intérieur dominant qui influence vos résultats."
+  },
+  {
+    "id": "ccq-004",
+    "section": "Lecture quantique",
+    "question": "Que signifie \"superposition\" dans la métaphore quantique de l'alignement ?",
+    "answer": "Plusieurs futurs restent possibles, vous gardez des options ouvertes.",
+    "explanation": "Comme en physique quantique, plusieurs possibilités coexistent jusqu'à l'observation/action."
+  },
+  {
+    "id": "ccq-005",
+    "section": "Lecture quantique",
+    "question": "Que sont les \"interférences\" dans le contexte de l'alignement ?",
+    "answer": "Ce sont vos contradictions internes qui créent du bruit, comme dire \"je veux\" mais vivre \"je doute\".",
+    "explanation": "Ces contradictions entre pensées, paroles et actions réduisent votre cohérence."
+  },
+  {
+    "id": "ccq-006",
+    "section": "Couronne",
+    "question": "Quels sont les 5 piliers de la Couronne d'Alignement ?",
+    "answer": "1. Clarté, 2. Vérité émotionnelle, 3. Identité, 4. Action cohérente, 5. Écosystème.",
+    "explanation": "Ces 5 piliers structurent la pratique de l'alignement."
+  },
+  {
+    "id": "ccq-007",
+    "section": "Couronne",
+    "question": "Que contient le pilier \"Clarté\" ?",
+    "answer": "Écrire son objectif en une phrase avec une date et un \"pourquoi\" en une phrase.",
+    "explanation": "La clarté précise de l'objectif est fondamentale pour l'alignement."
+  },
+  {
+    "id": "ccq-008",
+    "section": "Couronne",
+    "question": "Comment procéder avec le pilier \"Vérité émotionnelle\" ?",
+    "answer": "Nommer son émotion dominante, l'accepter sans la combattre, puis la transformer par l'action.",
+    "explanation": "L'acceptation émotionnelle précède la transformation par l'action."
+  },
+  {
+    "id": "ccq-009",
+    "section": "Couronne",
+    "question": "Comment mettre en œuvre le pilier \"Identité\" ?",
+    "answer": "Décider qui on est dans le projet avec une phrase simple \"Je suis quelqu'un qui...\" puis agir comme cette personne.",
+    "explanation": "L'identité précède et guide l'action cohérente."
+  },
+  {
+    "id": "ccq-010",
+    "section": "Couronne",
+    "question": "Quelles caractéristiques doit avoir l'action du pilier \"Action cohérente\" ?",
+    "answer": "1 action par jour, petite, mesurable, non négociable.",
+    "explanation": "La régularité et la simplicité des actions renforcent l'alignement."
+  },
+  {
+    "id": "ccq-011",
+    "section": "Couronne",
+    "question": "Que signifie travailler son \"Écosystème\" selon le 5ème pilier ?",
+    "answer": "Réduire le bruit, augmenter le soutien, choisir des personnes, lieux et contenus qui renforcent son cap.",
+    "explanation": "L'environnement influence fortement votre alignement."
+  },
+  {
+    "id": "ccq-012",
+    "section": "Protocole",
+    "question": "Combien de temps dure le protocole quotidien d'alignement ?",
+    "answer": "7 minutes.",
+    "explanation": "Un protocole court mais complet pour maintenir l'alignement quotidien."
+  },
+  {
+    "id": "ccq-013",
+    "section": "Protocole",
+    "question": "Que fait-on pendant la minute 1 du protocole ?",
+    "answer": "Respiration lente pour revenir au corps.",
+    "explanation": "La première étape est l'ancrage corporel par la respiration."
+  },
+  {
+    "id": "ccq-014",
+    "section": "Protocole",
+    "question": "Que fait-on pendant les minutes 3-4 du protocole ?",
+    "answer": "On ressent l'état aligné (calme, confiance, service) et on choisit un mot-clé.",
+    "explanation": "L'état intérieur aligné est cultivé intentionnellement."
+  },
+  {
+    "id": "ccq-015",
+    "section": "Protocole",
+    "question": "Que fait-on pendant la minute 7 du protocole ?",
+    "answer": "On envoie un signal à l'écosystème (message, rendez-vous, demande, contribution).",
+    "explanation": "L'action externe complète le travail interne d'alignement."
+  },
+  {
+    "id": "ccq-016",
+    "section": "Checklist",
+    "question": "Combien d'items contient la checklist d'alignement avant une décision importante ?",
+    "answer": "7 items.",
+    "explanation": "Une checklist en 7 points pour vérifier son alignement avant une décision."
+  },
+  {
+    "id": "ccq-017",
+    "section": "Checklist",
+    "question": "Que vérifie le premier item de la checklist ?",
+    "answer": "Que mon objectif est clair en 1 phrase.",
+    "explanation": "La clarté de l'objectif est la première condition d'alignement."
+  },
+  {
+    "id": "ccq-018",
+    "section": "Checklist",
+    "question": "Que recommande le 5ème item de la checklist ?",
+    "answer": "Faire une action test dans les 24 heures.",
+    "explanation": "L'action test permet de valider la décision dans la réalité."
+  },
+  {
+    "id": "ccq-019",
+    "section": "Indicateurs",
+    "question": "Citez 3 indicateurs concrets que vous êtes aligné.",
+    "answer": "Exemples : Vous agissez plus vite, vous justifiez moins, vous dormez mieux.",
+    "explanation": "Ces signes tangibles montrent que l'alignement est effectif."
+  },
+  {
+    "id": "ccq-020",
+    "section": "Indicateurs",
+    "question": "Comment se manifestent les opportunités quand vous êtes aligné ?",
+    "answer": "Elles arrivent par des contacts et des coïncidences utiles.",
+    "explanation": "L'alignement crée une résonance qui attire les opportunités pertinentes."
+  },
+  {
+    "id": "ccq-021",
+    "section": "Pièges",
+    "question": "Quel est le premier piège classique de l'alignement ?",
+    "answer": "Chercher un signe au lieu de faire une action.",
+    "explanation": "L'attente passive d'un signe empêche l'action alignée."
+  },
+  {
+    "id": "ccq-022",
+    "section": "Pièges",
+    "question": "Quelle confusion caractérise le deuxième piège ?",
+    "answer": "Confondre \"alignement\" et \"absence de peur\".",
+    "explanation": "L'alignement accepte la peur mais agit quand même."
+  },
+  {
+    "id": "ccq-023",
+    "section": "Pièges",
+    "question": "Quel est le troisième piège classique ?",
+    "answer": "Changer d'objectif trop tôt, ne pas laisser le temps aux causes de produire des effets.",
+    "explanation": "L'impatience brise l'alignement avant que les résultats n'apparaissent."
+  },
+  {
+    "id": "ccq-024",
+    "section": "Conclusion",
+    "question": "Que devriez-vous \"forcer\" selon la conclusion opérationnelle ?",
+    "answer": "Forcer votre cohérence, pas le monde.",
+    "explanation": "La cohérence interne est le seul élément que vous pouvez contrôler directement."
+  }
+]
