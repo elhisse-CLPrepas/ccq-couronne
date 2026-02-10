@@ -1,722 +1,294 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formation IA 2026 - Maîtrisez l'Intelligence Artificielle | CLPrepas360°</title>
-    <meta name="description" content="Formation IA intensive de 6 semaines avec 6 modules. Apprenez à maîtriser l'IA générative, automatisez vos processus et boostez votre productivité. Inscriptions ouvertes.">
-    <meta name="keywords" content="formation IA, intelligence artificielle 2026, ChatGPT, Midjourney, automatisation, CLPrepas360°, formation en ligne">
-    <meta property="og:title" content="Formation IA 2026 - CLPrepas360°">
-    <meta property="og:description" content="6 semaines pour maîtriser l'IA et transformer votre productivité">
-    <meta property="og:image" content="https://clprepas.com/images/formation-ia-2026-og.jpg">
-    <meta property="og:url" content="https://clprepas.com/formation-ia-2026">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation IA 2026 - Maîtrisez l'Intelligence Artificielle | CLPrepas360°</title>
+  <meta name="description" content="Formation IA intensive de 6 semaines avec 6 modules. Apprenez à maîtriser l'IA générative, automatisez vos processus et boostez votre productivité.">
+  <meta name="keywords" content="formation IA, intelligence artificielle 2026, ChatGPT, Midjourney, automatisation, CLPrepas360°, formation en ligne">
+  <meta property="og:title" content="Formation IA 2026 - CLPrepas360°">
+  <meta property="og:description" content="6 semaines pour maîtriser l'IA et transformer votre productivité">
+  <meta property="og:image" content="https://clprepas.com/images/formation-ia-2026-og.jpg">
+  <meta property="og:url" content="https://clprepas.com/formation-ia-2026">
+  <link rel="canonical" href="https://clprepas.com/formation-ia-2026">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    <style>
-        :root {
-            --turquoise: #2EC4B6;
-            --turquoise-dark: #20A39E;
-            --marron: #8B4513;
-            --marron-light: #A0522D;
-            --clair: #F8F9FA;
-            --text-dark: #333333;
-        }
+  <style>
+    :root {
+      --turquoise: #2EC4B6;
+      --turquoise-dark: #20A39E;
+      --marron: #8B4513;
+      --marron-light: #A0522D;
+      --clair: #F8F9FA;
+      --text-dark: #333333;
+    }
 
-        body {
-            font-family: 'Inter', sans-serif;
-            color: var(--text-dark);
-            background-color: var(--clair);
-            scroll-behavior: smooth;
-        }
+    body { font-family: 'Inter', sans-serif; color: var(--text-dark); background: var(--clair); }
+    h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; }
+    .section { padding: 5rem 0; }
+    .section-title { border-left: 5px solid var(--marron); padding-left: 1rem; margin-bottom: 2rem; }
+    .navbar { background: #fff; box-shadow: 0 10px 24px rgba(0,0,0,.06); }
+    .hero { background: linear-gradient(135deg, rgba(46,196,182,.12), rgba(32,163,158,.08)); padding: 7rem 0 5rem; }
+    .badge-open { background: linear-gradient(135deg, var(--turquoise), var(--turquoise-dark)); color: #fff; border-radius: 999px; padding: .45rem .95rem; font-size: .84rem; }
 
-        h1, h2, h3, h4, h5 {
-            font-family: 'Montserrat', sans-serif;
-        }
+    .btn-inscription {
+      background: linear-gradient(135deg, var(--turquoise), var(--turquoise-dark)); color: #fff;
+      padding: 12px 30px; border-radius: 50px; font-weight: 600; border: 0; text-decoration: none;
+      transition: all .3s ease;
+    }
+    .btn-inscription:hover { color: #fff; transform: translateY(-2px); box-shadow: 0 8px 18px rgba(46,196,182,.35); }
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #25D366, #128C7E); color: #fff;
+      padding: 12px 30px; border-radius: 50px; font-weight: 600; border: 0; text-decoration: none;
+    }
+    .btn-whatsapp:hover { color:#fff; transform: translateY(-2px); }
+    .btn-secondary-custom {
+      border-radius: 50px; border: 2px solid var(--marron); color: var(--marron);
+      padding: 12px 30px; font-weight: 600; text-decoration: none;
+    }
 
-        .navbar {
-            background-color: #ffffff;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-        }
+    .module-card { border-left: 5px solid var(--turquoise); background: #fff; border-radius: 1rem; padding: 1.25rem; height: 100%; transition: transform .3s ease; }
+    .module-card:hover { transform: translateY(-5px); }
+    .timeline { position: relative; padding-left: 1.7rem; }
+    .timeline:before { content: ''; position: absolute; left: .45rem; top: .3rem; bottom: .3rem; width: 2px; background: var(--turquoise); }
+    .timeline-item { position: relative; padding: .8rem 0 .8rem 1rem; }
+    .timeline-item:before { content:''; position:absolute; left:-.1rem; top:1.35rem; width:.8rem; height:.8rem; border-radius:50%; background: var(--marron); }
 
-        .btn-inscription {
-            background: linear-gradient(135deg, var(--turquoise), var(--turquoise-dark));
-            color: white;
-            padding: 12px 30px;
-            border-radius: 50px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            border: none;
-        }
+    .feature-card, .testimonial-card, .price-card, .cert-card { background:#fff; border-radius:1rem; padding:1.3rem; box-shadow: 0 8px 20px rgba(0,0,0,.04); height:100%; }
+    .cert-card { background: linear-gradient(135deg, rgba(46,196,182,.14), rgba(139,69,19,.10)); }
+    .faq .accordion-button:not(.collapsed) { background: rgba(139,69,19,.09); color: var(--marron); }
 
-        .btn-inscription:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 12px 20px rgba(46, 196, 182, 0.25);
-            color: white;
-        }
+    .scroll-reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+    .scroll-reveal.visible { opacity: 1; transform: translateY(0); }
 
-        .btn-whatsapp {
-            background: linear-gradient(135deg, #25D366, #128C7E);
-            color: white;
-            padding: 12px 30px;
-            border-radius: 50px;
-            font-weight: 600;
-            border: none;
-        }
-
-        .btn-whatsapp:hover {
-            color: white;
-            transform: translateY(-2px);
-        }
-
-        .btn-secondary-custom {
-            border-radius: 50px;
-            border: 2px solid var(--marron);
-            color: var(--marron);
-            padding: 12px 30px;
-            font-weight: 600;
-            background-color: transparent;
-        }
-
-        .hero {
-            background: linear-gradient(135deg, rgba(46, 196, 182, 0.1), rgba(32, 163, 158, 0.1));
-            padding: 120px 0 80px;
-        }
-
-        .badge-open {
-            background: linear-gradient(135deg, var(--turquoise), var(--turquoise-dark));
-            color: white;
-            border-radius: 20px;
-            padding: 8px 16px;
-            font-size: 0.85rem;
-        }
-
-        .countdown {
-            background-color: white;
-            border-radius: 16px;
-            padding: 16px 20px;
-            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
-        }
-
-        .module-card {
-            border-left: 5px solid var(--turquoise);
-            background: var(--clair);
-            transition: transform 0.3s ease;
-            padding: 20px;
-            border-radius: 16px;
-            height: 100%;
-        }
-
-        .module-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .timeline {
-            position: relative;
-            padding-left: 30px;
-        }
-
-        .timeline::before {
-            content: '';
-            position: absolute;
-            left: 10px;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: var(--turquoise);
-        }
-
-        .timeline-item {
-            position: relative;
-            padding: 20px 0 20px 20px;
-        }
-
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: -4px;
-            top: 28px;
-            width: 14px;
-            height: 14px;
-            background: var(--marron);
-            border-radius: 50%;
-        }
-
-        .cert-card {
-            border-radius: 20px;
-            background: linear-gradient(135deg, rgba(46, 196, 182, 0.12), rgba(139, 69, 19, 0.12));
-            padding: 30px;
-        }
-
-        .section {
-            padding: 80px 0;
-        }
-
-        .section-title {
-            border-left: 5px solid var(--marron);
-            padding-left: 16px;
-            margin-bottom: 32px;
-        }
-
-        .testimonial-card {
-            background: white;
-            border-radius: 18px;
-            padding: 24px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
-            height: 100%;
-        }
-
-        .faq .accordion-button:not(.collapsed) {
-            color: var(--marron);
-            background-color: rgba(139, 69, 19, 0.1);
-        }
-
-        .footer {
-            background-color: #1f1f1f;
-            color: white;
-            padding: 40px 0;
-        }
-
-        .scroll-reveal {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-
-        .scroll-reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .cta-banner {
-            background: linear-gradient(135deg, var(--turquoise), var(--turquoise-dark));
-            color: white;
-            border-radius: 24px;
-            padding: 30px;
-        }
-
-        .form-control:focus {
-            border-color: var(--turquoise);
-            box-shadow: 0 0 0 0.25rem rgba(46, 196, 182, 0.2);
-        }
-
-        @media (max-width: 768px) {
-            .hero {
-                padding-top: 90px;
-            }
-        }
-    </style>
+    .video-frame { border-radius: 1rem; overflow: hidden; box-shadow: 0 12px 28px rgba(0,0,0,.12); }
+    .footer { background: #1c1c1c; color: #fff; padding: 2.5rem 0; }
+  </style>
 </head>
 <body>
-    <!-- Navigation fixe -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#formation-ia-2026-hero">CLPrepas360°</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto gap-lg-3">
-                    <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-details">Détails</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-modules">Modules</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-methode">Méthode</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-temoignages">Témoignages</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-tarifs">Tarifs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-faq">FAQ</a></li>
-                </ul>
-            </div>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#formation-ia-2026-hero">CLPrepas360°</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-details">Détails</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-modules">Modules</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-methode">Méthode</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-video">Vidéo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-tarifs">Inscription</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="formation-ia-2026-hero" class="hero">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <span class="badge-open d-inline-flex align-items-center mb-3"><i class="fa-solid fa-circle-check me-2"></i>Inscriptions ouvertes</span>
+          <h1 class="display-5 fw-bold">Formation IA 2026 - Maîtrisez l'Intelligence Artificielle en 6 Semaines</h1>
+          <p class="lead mb-4">6 modules intensifs • 2 sessions live Zoom • Certification CLPrepas360°</p>
+          <div class="d-flex flex-column flex-md-row gap-3">
+            <a class="btn-inscription text-center" href="mailto:elhisse@clprepas.com?subject=Inscription%20Formation%20IA%202026">S'inscrire par email</a>
+            <a class="btn-whatsapp text-center" href="https://wa.me/33612345678?text=Bonjour,%20je%20m'int%C3%A9resse%20%C3%A0%20la%20Formation%20IA%202026" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
+          </div>
+          <a class="btn-secondary-custom d-inline-block mt-3" href="#formation-ia-2026-tarifs">Télécharger le programme complet (PDF) Guide Formation-IA-2026</a>
+          <div class="mt-4 p-3 bg-white rounded-4 shadow-sm d-inline-flex align-items-center gap-3">
+            <i class="fa-solid fa-hourglass-half text-warning"></i>
+            <div><strong>Début en [MOIS] 2026</strong><br><small>Places limitées</small></div>
+          </div>
         </div>
-    </nav>
-
-    <!-- Hero Section avec CTA principal -->
-    <section id="formation-ia-2026-hero" class="hero">
-        <div class="container">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-6">
-                    <span class="badge-open mb-3 d-inline-flex align-items-center"><i class="fa-solid fa-circle-check me-2"></i>Inscriptions ouvertes</span>
-                    <h1 class="display-5 fw-bold">Formation IA 2026 - Maîtrisez l'Intelligence Artificielle en 6 Semaines</h1>
-                    <p class="lead">6 modules intensifs • 2 sessions live Zoom • Certification CLPrepas360°</p>
-                    <div class="d-flex flex-column flex-md-row gap-3 mt-4">
-                        <a class="btn-inscription" href="mailto:elhisse@clprepas.com?subject=Inscription%20Formation%20IA%202026">S'inscrire par email</a>
-                        <a class="btn-whatsapp" href="https://wa.me/33612345678?text=Bonjour,%20je%20m'int%C3%A9resse%20%C3%A0%20la%20Formation%20IA%202026" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
-                    </div>
-                    <a class="btn-secondary-custom mt-3 d-inline-block" href="#formation-ia-2026-tarifs">Télécharger le programme complet (PDF) Guide Formation-IA- 2026</a>
-                    <div class="countdown mt-4 d-inline-flex align-items-center gap-3">
-                        <i class="fa-solid fa-hourglass-start text-warning"></i>
-                        <div>
-                            <p class="mb-0 fw-semibold">Début en [MOIS] 2026</p>
-                            <small>Places limitées • clôture des inscriptions bientôt</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="position-relative">
-                        <img src="https://via.placeholder.com/600x420.png?text=Formation+IA+2026" alt="Illustration de la formation IA 2026" class="img-fluid rounded-4 shadow">
-                        <div class="position-absolute bottom-0 start-0 translate-middle-y bg-white p-3 rounded-4 shadow-sm">
-                            <div class="d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-award text-warning fa-2x"></i>
-                                <div>
-                                    <p class="mb-0 fw-semibold">Certification CLPrepas360°</p>
-                                    <small>Diplôme officiel en fin de parcours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-lg-6">
+          <img src="hero-banner.jpg.png" alt="Professionnels apprenant l'intelligence artificielle pendant la formation CLPrepas360°" class="img-fluid rounded-4 shadow">
         </div>
-    </section>
+      </div>
+    </div>
+  </header>
 
-    <!-- Section "Formation IA 2026 en détail" -->
-    <section id="formation-ia-2026-details" class="section scroll-reveal">
-        <div class="container">
-            <div class="section-title">
-                <h2>Formation IA 2026 en détail</h2>
-                <p class="mb-0">Une immersion complète pour transformer votre productivité et vos processus.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-calendar-check text-success fa-2x mb-3"></i>
-                        <h4>Durée</h4>
-                        <p>6 semaines intensives pour ancrer vos réflexes IA.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-video text-primary fa-2x mb-3"></i>
-                        <h4>Format</h4>
-                        <p>100% en ligne + 2 sessions Zoom interactives.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-layer-group text-warning fa-2x mb-3"></i>
-                        <h4>Modules</h4>
-                        <p>6 modules progressifs pour tous les niveaux.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-signal text-success fa-2x mb-3"></i>
-                        <h4>Niveau</h4>
-                        <p>Débutant à avancé, avec un accompagnement guidé.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-certificate text-primary fa-2x mb-3"></i>
-                        <h4>Certification</h4>
-                        <p>Diplôme CLPrepas360° reconnu dans votre parcours professionnel.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-infinity text-warning fa-2x mb-3"></i>
-                        <h4>Accès</h4>
-                        <p>Accès illimité aux ressources et mises à jour.</p>
-                    </div>
-                </div>
-            </div>
+  <section id="formation-ia-2026-details" class="section scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Formation IA 2026 en détail</h2></div>
+      <div class="row g-3">
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-calendar-check text-success mb-2"></i><h5>Durée</h5><p>6 semaines intensives.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-video text-primary mb-2"></i><h5>Format</h5><p>100% en ligne + 2 sessions Zoom interactives.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-layer-group text-warning mb-2"></i><h5>Modules</h5><p>6 modules progressifs.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-signal text-success mb-2"></i><h5>Niveau</h5><p>Débutant à Avancé.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-certificate text-primary mb-2"></i><h5>Certification</h5><p>Diplôme CLPrepas360°.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-infinity text-warning mb-2"></i><h5>Accès</h5><p>Illimité aux ressources.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-modules" class="section bg-white scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>6 Modules - 6 Semaines</h2></div>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 1</span><h5 class="mt-2">Fondamentaux de l'IA générative</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 2</span><h5 class="mt-2">Prompt engineering avancé</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 3</span><h5 class="mt-2">Automatisation des workflows</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 4</span><h5 class="mt-2">IA pour la productivité</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 5</span><h5 class="mt-2">Projet pratique guidé</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 6</span><h5 class="mt-2">Déploiement et optimisation</h5></article></div>
+      </div>
+      <div class="row mt-4 g-3">
+        <div class="col-lg-6">
+          <div class="timeline">
+            <div class="timeline-item"><strong>Semaine 1</strong> - Fondamentaux</div>
+            <div class="timeline-item"><strong>Semaine 2</strong> - Prompting</div>
+            <div class="timeline-item"><strong>Semaine 3</strong> - Workflows</div>
+            <div class="timeline-item"><strong>Semaine 4</strong> - Productivité</div>
+            <div class="timeline-item"><strong>Semaine 5</strong> - Projet pratique</div>
+            <div class="timeline-item"><strong>Semaine 6</strong> - Déploiement</div>
+          </div>
         </div>
-    </section>
-
-    <!-- Section "6 Modules - 6 Semaines" -->
-    <section id="formation-ia-2026-modules" class="section bg-white scroll-reveal">
-        <div class="container">
-            <div class="section-title">
-                <h2>6 Modules - 6 Semaines</h2>
-                <p class="mb-0">Un parcours clair, structuré et orienté résultats.</p>
+        <div class="col-lg-6">
+          <div class="cert-card">
+            <h4>Carte de certification preview</h4>
+            <div class="p-4 border border-2 border-white rounded-3 bg-light mt-3">
+              <h5 class="mb-1">CLPrepas360°</h5>
+              <p class="mb-1">Certificat de réussite - Formation IA 2026</p>
+              <small>Validé après évaluation finale et projet guidé.</small>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="module-card">
-                        <span class="badge bg-success">Module 1</span>
-                        <h4 class="mt-3">Fondamentaux de l'IA générative</h4>
-                        <p>Comprendre les bases et les modèles clés pour une adoption rapide.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="module-card">
-                        <span class="badge bg-success">Module 2</span>
-                        <h4 class="mt-3">Prompt engineering avancé</h4>
-                        <p>Créer des prompts puissants pour des résultats précis et reproductibles.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="module-card">
-                        <span class="badge bg-success">Module 3</span>
-                        <h4 class="mt-3">Automatisation des workflows</h4>
-                        <p>Automatisez les tâches et gagnez des heures chaque semaine.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="module-card">
-                        <span class="badge bg-success">Module 4</span>
-                        <h4 class="mt-3">IA pour la productivité</h4>
-                        <p>Optimisez vos process avec des outils d'IA concrets.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="module-card">
-                        <span class="badge bg-success">Module 5</span>
-                        <h4 class="mt-3">Projet pratique guidé</h4>
-                        <p>Déployez un projet réel avec coaching et feedback personnalisé.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="module-card">
-                        <span class="badge bg-success">Module 6</span>
-                        <h4 class="mt-3">Déploiement et optimisation</h4>
-                        <p>Industrialisez vos solutions IA et mesurez vos gains.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-6">
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <h5>Semaine 1</h5>
-                            <p>Démarrage et fondamentaux.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <h5>Semaine 2</h5>
-                            <p>Maîtrise des prompts avancés.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <h5>Semaine 3</h5>
-                            <p>Automatisation des workflows.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <h5>Semaine 4</h5>
-                            <p>Productivité et gain de temps.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <h5>Semaine 5</h5>
-                            <p>Projet pratique guidé.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <h5>Semaine 6</h5>
-                            <p>Déploiement et optimisation.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="cert-card h-100">
-                        <h4 class="mb-3">Carte de certification preview</h4>
-                        <img src="https://via.placeholder.com/520x320.png?text=Certification+CLPrepas360" alt="Aperçu de la certification CLPrepas360°" class="img-fluid rounded-3">
-                        <p class="mt-3 mb-0">Recevez un diplôme officiel attestant de votre maîtrise de l'IA.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Section "Méthode pédagogique" -->
-    <section id="formation-ia-2026-methode" class="section scroll-reveal">
-        <div class="container">
-            <div class="section-title">
-                <h2>Méthode pédagogique</h2>
-                <p class="mb-0">Un accompagnement structuré pour passer à l'action rapidement.</p>
+  <section id="formation-ia-2026-methode" class="section scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Méthode pédagogique</h2></div>
+      <div class="row g-3">
+        <div class="col-md-4"><div class="feature-card">Cours vidéo HD</div></div>
+        <div class="col-md-4"><div class="feature-card">Exercices pratiques</div></div>
+        <div class="col-md-4"><div class="feature-card">Corrections personnalisées</div></div>
+        <div class="col-md-4"><div class="feature-card">2 sessions Zoom de groupe</div></div>
+        <div class="col-md-4"><div class="feature-card">Support communauté privée</div></div>
+        <div class="col-md-4"><div class="feature-card">Ressources téléchargeables</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-pourquoi" class="section bg-white scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Pourquoi nous choisir ?</h2></div>
+      <ul class="list-unstyled">
+        <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Approche orientée résultats terrain.</li>
+        <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Accompagnement humain + outils IA.</li>
+        <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Méthode applicable dès la première semaine.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-video" class="section scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Le guide du vibe-coding 2026</h2></div>
+      <div class="ratio ratio-16x9 video-frame">
+        <iframe src="https://www.youtube.com/embed/sbR-LmaIDOY" title="Le guide du vibe-coding 2026 quelle solution pour quel usage" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-temoignages" class="section bg-white scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Témoignages</h2></div>
+      <div class="row g-3">
+        <div class="col-md-4"><div class="testimonial-card"><p>"J'ai gagné 8h par semaine grâce aux automatisations."</p><strong>Léa F.</strong></div></div>
+        <div class="col-md-4"><div class="testimonial-card"><p>"Excellent équilibre entre théorie et pratique."</p><strong>Ahmed M.</strong></div></div>
+        <div class="col-md-4"><div class="testimonial-card"><p>"La certification CLPrepas360° renforce mon profil."</p><strong>Sophie C.</strong></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-tarifs" class="section scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Tarifs et inscription</h2></div>
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-5">
+          <div class="price-card">
+            <h4>Pack Premium</h4>
+            <p class="display-6 text-success fw-bold">1 290 €</p>
+            <ul>
+              <li>6 modules</li><li>2 lives Zoom</li><li>Support</li><li>Certification</li>
+            </ul>
+            <div class="d-grid gap-2">
+              <a class="btn-inscription text-center" href="mailto:elhisse@clprepas.com?subject=Inscription%20Formation%20IA%202026">S'inscrire par email</a>
+              <a class="btn-whatsapp text-center" href="https://wa.me/33612345678?text=Bonjour,%20je%20m'int%C3%A9resse%20%C3%A0%20la%20Formation%20IA%202026" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
             </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-play-circle text-success fa-2x mb-3"></i>
-                        <h4>Cours vidéo HD</h4>
-                        <p>Des contenus clairs et actionnables à chaque étape.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-pen-to-square text-primary fa-2x mb-3"></i>
-                        <h4>Exercices pratiques</h4>
-                        <p>Des cas concrets pour ancrer vos compétences.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-comments text-warning fa-2x mb-3"></i>
-                        <h4>Corrections personnalisées</h4>
-                        <p>Feedback individuel et recommandations ciblées.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-video text-success fa-2x mb-3"></i>
-                        <h4>2 sessions Zoom</h4>
-                        <p>Sessions live pour poser vos questions et progresser.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-user-group text-primary fa-2x mb-3"></i>
-                        <h4>Communauté privée</h4>
-                        <p>Réseau d'entraide pour maintenir votre progression.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
-                        <i class="fa-solid fa-download text-warning fa-2x mb-3"></i>
-                        <h4>Ressources téléchargeables</h4>
-                        <p>Templates, checklists et scripts prêts à l'emploi.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Section "Pourquoi nous choisir ?" -->
-    <section id="formation-ia-2026-pourquoi" class="section bg-white scroll-reveal">
-        <div class="container">
-            <div class="section-title">
-                <h2>Pourquoi nous choisir ?</h2>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <ul class="list-unstyled">
-                        <li class="mb-3"><i class="fa-solid fa-check text-success me-2"></i>Programme orienté résultats et productivité immédiate.</li>
-                        <li class="mb-3"><i class="fa-solid fa-check text-success me-2"></i>Formateurs experts en IA et automatisation.</li>
-                        <li class="mb-3"><i class="fa-solid fa-check text-success me-2"></i>Accompagnement personnalisé tout au long du parcours.</li>
-                        <li class="mb-3"><i class="fa-solid fa-check text-success me-2"></i>Certification officielle CLPrepas360°.</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <div class="cta-banner h-100">
-                        <h4 class="mb-3">Un cadre motivant pour passer à l'action</h4>
-                        <p>Rejoignez une cohorte engagée et obtenez des résultats mesurables dès les premières semaines.</p>
-                        <a class="btn btn-light" href="mailto:elhisse@clprepas.com?subject=Inscription%20Formation%20IA%202026">Réservez votre place</a>
-                    </div>
-                </div>
-            </div>
+        <div class="col-lg-7">
+          <div class="price-card">
+            <h4>Réserver ma place</h4>
+            <form id="inscriptionForm" class="row g-3" novalidate>
+              <div class="col-md-6"><label class="form-label" for="name">Nom complet</label><input class="form-control" id="name" required></div>
+              <div class="col-md-6"><label class="form-label" for="email">Email</label><input type="email" class="form-control" id="email" required></div>
+              <div class="col-md-6"><label class="form-label" for="phone">Téléphone</label><input type="tel" class="form-control" id="phone" required></div>
+              <div class="col-md-6"><label class="form-label" for="level">Niveau actuel en IA</label>
+                <select class="form-select" id="level" required><option value="">Sélectionner</option><option>Débutant</option><option>Intermédiaire</option><option>Avancé</option></select>
+              </div>
+              <div class="col-12"><button type="submit" class="btn-inscription w-100">Réserver ma place</button></div>
+              <div class="col-12"><small id="formMessage" class="text-muted"></small></div>
+            </form>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Section "Témoignages" -->
-    <section id="formation-ia-2026-temoignages" class="section scroll-reveal">
-        <div class="container">
-            <div class="section-title">
-                <h2>Témoignages</h2>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="testimonial-card">
-                        <p>"J'ai automatisé 40% de mes tâches en 2 semaines. La formation est ultra concrète."</p>
-                        <div class="d-flex align-items-center mt-3">
-                            <img src="https://via.placeholder.com/60x60.png?text=LF" alt="Avatar de Léa F." class="rounded-circle me-3">
-                            <div>
-                                <h6 class="mb-0">Léa F.</h6>
-                                <small>Consultante marketing</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial-card">
-                        <p>"Les sessions Zoom m'ont permis de clarifier chaque étape. Je recommande."</p>
-                        <div class="d-flex align-items-center mt-3">
-                            <img src="https://via.placeholder.com/60x60.png?text=AM" alt="Avatar de Ahmed M." class="rounded-circle me-3">
-                            <div>
-                                <h6 class="mb-0">Ahmed M.</h6>
-                                <small>Chef de projet</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial-card">
-                        <p>"Formation structurée, super bien rythmée. La certification valorise mon profil."</p>
-                        <div class="d-flex align-items-center mt-3">
-                            <img src="https://via.placeholder.com/60x60.png?text=SC" alt="Avatar de Sophie C." class="rounded-circle me-3">
-                            <div>
-                                <h6 class="mb-0">Sophie C.</h6>
-                                <small>Responsable RH</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="formation-ia-2026-faq" class="section faq bg-white scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>FAQ</h2></div>
+      <div class="accordion" id="faqAcc">
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1">Q1: Faut-il des prérequis techniques ?</button></h2><div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc"><div class="accordion-body">Non, accessible aux débutants.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q2">Q2: Quel est l'engagement hebdomadaire ?</button></h2><div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">3 à 4 heures/semaine.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q3">Q3: Les sessions Zoom sont-elles obligatoires ?</button></h2><div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Recommandées, replay disponible.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q4">Q4: Puis-je payer en plusieurs fois ?</button></h2><div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Oui, sur demande.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q5">Q5: Y a-t-il une garantie satisfaction ?</button></h2><div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Garantie 14 jours.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q6">Q6: Accès aux ressources après la formation ?</button></h2><div id="q6" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Oui, accès illimité.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q7">Q7: Certification reconnue ?</button></h2><div id="q7" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Certification CLPrepas360° fournie.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q8">Q8: Support technique inclus ?</button></h2><div id="q8" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Oui, support inclus.</div></div></div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Section "Tarifs et inscription" -->
-    <section id="formation-ia-2026-tarifs" class="section bg-white scroll-reveal">
-        <div class="container">
-            <div class="section-title">
-                <h2>Tarifs et inscription</h2>
-                <p class="mb-0">Choisissez la formule adaptée et réservez votre place.</p>
-            </div>
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-5">
-                    <div class="p-4 rounded-4 shadow-sm border">
-                        <h3 class="mb-3">Pack Premium</h3>
-                        <h2 class="text-success">1 290 €</h2>
-                        <ul class="list-unstyled">
-                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Accès complet 6 semaines</li>
-                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>2 sessions Zoom</li>
-                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Support communauté privée</li>
-                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Certification CLPrepas360°</li>
-                        </ul>
-                        <div class="d-grid gap-2">
-                            <a class="btn-inscription text-center" href="mailto:elhisse@clprepas.com?subject=Inscription%20Formation%20IA%202026">S'inscrire par email</a>
-                            <a class="btn-whatsapp text-center" href="https://wa.me/33612345678?text=Bonjour,%20je%20m'int%C3%A9resse%20%C3%A0%20la%20Formation%20IA%202026" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="p-4 rounded-4 shadow-sm border">
-                        <h4 class="mb-3">Réserver votre place</h4>
-                        <form class="row g-3">
-                            <div class="col-md-6">
-                                <label for="fullName" class="form-label">Nom complet</label>
-                                <input type="text" class="form-control" id="fullName" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="phone" class="form-label">Téléphone</label>
-                                <input type="tel" class="form-control" id="phone" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="level" class="form-label">Niveau actuel en IA</label>
-                                <select class="form-select" id="level" required>
-                                    <option value="">Sélectionner</option>
-                                    <option>Débutant</option>
-                                    <option>Intermédiaire</option>
-                                    <option>Avancé</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn-inscription w-100">Réserver ma place</button>
-                            </div>
-                            <div class="col-12">
-                                <small class="text-muted">En soumettant, vous acceptez d'être contacté par l'équipe CLPrepas360°.</small>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <footer class="footer">
+    <div class="container text-center">
+      <h4>CLPrepas360°</h4>
+      <p class="mb-1"><a class="text-white" href="mailto:elhisse@clprepas.com">elhisse@clprepas.com</a></p>
+      <p class="mb-0">© 2026 CLPrepas360° - Formation IA 2026</p>
+    </div>
+  </footer>
 
-    <!-- FAQ -->
-    <section id="formation-ia-2026-faq" class="section faq scroll-reveal">
-        <div class="container">
-            <div class="section-title">
-                <h2>FAQ</h2>
-            </div>
-            <div class="accordion" id="faqAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
-                            Faut-il des prérequis techniques ?
-                        </button>
-                    </h2>
-                    <div id="faqCollapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">Aucun prérequis, la formation est progressive et accompagnée.</div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
-                            Quel est l'engagement hebdomadaire ?
-                        </button>
-                    </h2>
-                    <div id="faqCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">Environ 3 à 4 heures par semaine pour suivre les modules et pratiquer.</div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
-                            Les sessions Zoom sont-elles obligatoires ?
-                        </button>
-                    </h2>
-                    <div id="faqCollapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">Elles sont fortement recommandées pour l'interaction, mais les replays sont disponibles.</div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
-                            Puis-je payer en plusieurs fois ?
-                        </button>
-                    </h2>
-                    <div id="faqCollapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">Oui, des facilités de paiement sont disponibles sur demande.</div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
-                            Y a-t-il une garantie satisfaction ?
-                        </button>
-                    </h2>
-                    <div id="faqCollapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">Oui, une garantie satisfait ou remboursé de 14 jours.</div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqSix">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix">
-                            Accès aux ressources après la formation ?
-                        </button>
-                    </h2>
-                    <div id="faqCollapseSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">Oui, accès illimité aux ressources et mises à jour.</div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqSeven">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSeven" aria-expanded="false" aria-controls="faqCollapseSeven">
-                            Certification reconnue ?
-                        </button>
-                    </h2>
-                    <div id="faqCollapseSeven" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">La certification CLPrepas360° atteste d'une compétence opérationnelle en IA.</div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faqEight">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseEight" aria-expanded="false" aria-controls="faqCollapseEight">
-                            Support technique inclus ?
-                        </button>
-                    </h2>
-                    <div id="faqCollapseEight" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">Oui, support réactif via email et communauté privée.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script>
+    const observer = new IntersectionObserver((entries) => entries.forEach((entry) => entry.isIntersecting && entry.target.classList.add('visible')), {threshold: 0.15});
+    document.querySelectorAll('.scroll-reveal').forEach((el) => observer.observe(el));
 
-    <!-- Footer avec contacts -->
-    <footer class="footer">
-        <div class="container text-center">
-            <h4 class="mb-3">CLPrepas360° - Formation IA 2026</h4>
-            <p class="mb-1">Contact : <a class="text-white" href="mailto:elhisse@clprepas.com">elhisse@clprepas.com</a></p>
-            <p class="mb-0">© 2026 CLPrepas360°. Tous droits réservés.</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script>
-        const revealElements = document.querySelectorAll('.scroll-reveal');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, { threshold: 0.15 });
-
-        revealElements.forEach(element => observer.observe(element));
-    </script>
+    document.getElementById('inscriptionForm').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      const data = {
+        name: document.getElementById('name').value.trim(),
+        email: document.getElementById('email').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        level: document.getElementById('level').value
+      };
+      const body = encodeURIComponent(`Nouvelle demande d'inscription Formation IA 2026\n\nNom: ${data.name}\nEmail: ${data.email}\nTéléphone: ${data.phone}\nNiveau IA: ${data.level}`);
+      window.location.href = `mailto:elhisse@clprepas.com?subject=Réservation%20Formation%20IA%202026&body=${body}`;
+      document.getElementById('formMessage').textContent = 'Votre client email va s\'ouvrir pour finaliser la demande.';
+    });
+  </script>
 </body>
 </html>
