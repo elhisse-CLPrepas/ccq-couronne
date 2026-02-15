@@ -1,1575 +1,294 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags -->
-    <title>Couronne d'Alignement | Objectif, Fréquence, Cohérence | CLPrepas360°</title>
-    <meta name="description" content="Transformez votre vie par l'alignement objectif-fréquence-action. Protocole quotidien en 7 minutes basé sur la conscience collective quantique.">
-    <link rel="canonical" href="https://clprepas.com/ccq-couronne/">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://clprepas.com/ccq-couronne/">
-    <meta property="og:title" content="Couronne d'Alignement | Objectif, Fréquence, Cohérence">
-    <meta property="og:description" content="Transformez votre vie par l'alignement objectif-fréquence-action. Protocole quotidien en 7 minutes.">
-    <meta property="og:image" content="https://clprepas.com/ccq-couronne/images/og-image.jpg">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://clprepas.com/ccq-couronne/">
-    <meta property="twitter:title" content="Couronne d'Alignement | Objectif, Fréquence, Cohérence">
-    <meta property="twitter:description" content="Transformez votre vie par l'alignement objectif-fréquence-action. Protocole quotidien en 7 minutes.">
-    <meta property="twitter:image" content="https://clprepas.com/ccq-couronne/images/og-image.jpg">
-    
-    <style>
-        /* ===== CSS INTÉGRÉ ===== */
-        :root {
-            --primary-dark: #0a1a3a;
-            --primary-blue: #1a365d;
-            --accent-gold: #c9a96e;
-            --accent-light: #e8e6e1;
-            --text-dark: #2d3748;
-            --text-light: #4a5568;
-            --white: #ffffff;
-            --light-bg: #f8f9fa;
-            --shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
-            --radius: 12px;
-            --transition: all 0.3s ease;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            line-height: 1.6;
-            color: var(--text-dark);
-            background-color: var(--light-bg);
-            overflow-x: hidden;
-        }
-        
-        /* Typographie */
-        h1, h2, h3, h4 {
-            font-weight: 600;
-            line-height: 1.3;
-            margin-bottom: 1rem;
-            color: var(--primary-dark);
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            background: linear-gradient(90deg, var(--primary-dark) 0%, var(--accent-gold) 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        
-        h2 {
-            font-size: 1.8rem;
-            border-left: 4px solid var(--accent-gold);
-            padding-left: 1rem;
-            margin-top: 2.5rem;
-        }
-        
-        h3 {
-            font-size: 1.4rem;
-            color: var(--primary-blue);
-        }
-        
-        p {
-            margin-bottom: 1.2rem;
-            color: var(--text-light);
-        }
-        
-        /* Layout */
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-        
-        /* Header */
-        .header {
-            position: sticky;
-            top: 0;
-            background-color: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            box-shadow: var(--shadow);
-            z-index: 1000;
-            padding: 1rem 0;
-        }
-        
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary-dark);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        
-        .logo span {
-            color: var(--accent-gold);
-        }
-        
-        .nav-menu {
-            display: flex;
-            gap: 1.5rem;
-        }
-        
-        .nav-link {
-            text-decoration: none;
-            color: var(--text-light);
-            font-weight: 500;
-            padding: 0.5rem 0;
-            position: relative;
-            transition: var(--transition);
-        }
-        
-        .nav-link:hover, .nav-link.active {
-            color: var(--primary-blue);
-        }
-        
-        .nav-link.active::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background-color: var(--accent-gold);
-        }
-        
-        .study-mode-btn {
-            background-color: var(--primary-blue);
-            color: white;
-            border: none;
-            padding: 0.6rem 1.2rem;
-            border-radius: var(--radius);
-            font-weight: 500;
-            cursor: pointer;
-            transition: var(--transition);
-        }
-        
-        .study-mode-btn:hover {
-            background-color: var(--primary-dark);
-            transform: translateY(-2px);
-        }
-        
-        .mobile-menu-btn {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            color: var(--primary-dark);
-            cursor: pointer;
-        }
-        
-        /* Hero */
-        .hero {
-            padding: 4rem 0;
-            text-align: center;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 300px;
-            height: 300px;
-            background: radial-gradient(circle, var(--accent-gold) 0%, transparent 70%);
-            opacity: 0.1;
-        }
-        
-        .hero h1 {
-            margin-bottom: 1rem;
-        }
-        
-        .hero-subtitle {
-            font-size: 1.2rem;
-            color: var(--text-light);
-            max-width: 700px;
-            margin: 0 auto 2rem;
-        }
-        
-        .hero-actions {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            margin-top: 2rem;
-        }
-        
-        .btn {
-            padding: 0.9rem 2rem;
-            border-radius: var(--radius);
-            font-weight: 600;
-            text-decoration: none;
-            display: inline-block;
-            transition: var(--transition);
-            cursor: pointer;
-            border: none;
-        }
-        
-        .btn-primary {
-            background-color: var(--primary-blue);
-            color: white;
-        }
-        
-        .btn-primary:hover {
-            background-color: var(--primary-dark);
-            transform: translateY(-3px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-        }
-        
-        .btn-secondary {
-            background-color: transparent;
-            color: var(--primary-blue);
-            border: 2px solid var(--primary-blue);
-        }
-        
-        .btn-secondary:hover {
-            background-color: rgba(26, 54, 93, 0.05);
-            transform: translateY(-3px);
-        }
-        
-        .hero-visual {
-            height: 300px;
-            background-color: var(--accent-light);
-            border-radius: var(--radius);
-            margin-top: 3rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-light);
-            font-style: italic;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        /* Cards */
-        .section-card {
-            background-color: var(--white);
-            border-radius: var(--radius);
-            padding: 2.5rem;
-            margin-bottom: 2.5rem;
-            box-shadow: var(--shadow);
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-        
-        .section-card.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        
-        .card-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-        
-        .card-icon {
-            width: 50px;
-            height: 50px;
-            background-color: rgba(201, 169, 110, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--accent-gold);
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
-        
-        /* Pilier Cards */
-        .pillar-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1.5rem;
-        }
-        
-        .pillar-card {
-            background-color: var(--light-bg);
-            border-radius: var(--radius);
-            padding: 1.8rem;
-            border-top: 4px solid var(--accent-gold);
-        }
-        
-        .pillar-card h4 {
-            color: var(--primary-blue);
-            margin-bottom: 0.8rem;
-        }
-        
-        /* Checklist */
-        .checklist {
-            list-style: none;
-        }
-        
-        .checklist li {
-            margin-bottom: 1rem;
-            padding-left: 2rem;
-            position: relative;
-        }
-        
-        .checklist li:before {
-            content: '□';
-            position: absolute;
-            left: 0;
-            color: var(--accent-gold);
-            font-weight: bold;
-        }
-        
-        /* Action Summary */
-        .action-summary {
-            background-color: rgba(201, 169, 110, 0.08);
-            border-left: 4px solid var(--accent-gold);
-            padding: 1.5rem;
-            margin-top: 2rem;
-            border-radius: 0 var(--radius) var(--radius) 0;
-        }
-        
-        .action-summary h4 {
-            color: var(--primary-dark);
-            margin-bottom: 0.5rem;
-        }
-        
-        /* Footer */
-        .footer {
-            background-color: var(--primary-dark);
-            color: var(--white);
-            padding: 3rem 0;
-            text-align: center;
-            margin-top: 4rem;
-        }
-        
-        .footer-signature {
-            font-size: 1.8rem;
-            font-weight: 300;
-            letter-spacing: 2px;
-            margin-bottom: 1rem;
-            color: var(--accent-gold);
-        }
-        
-        .footer-note {
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 0.9rem;
-        }
-        
-        /* Flashcards Module */
-        .flashcards-modal {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.85);
-            z-index: 2000;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-        }
-        
-        .flashcards-container {
-            background-color: var(--white);
-            border-radius: var(--radius);
-            width: 100%;
-            max-width: 800px;
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-        }
-        
-        .flashcards-header {
-            padding: 1.5rem;
-            background-color: var(--primary-dark);
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .close-flashcards {
-            background: none;
-            border: none;
-            color: white;
-            font-size: 1.5rem;
-            cursor: pointer;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            transition: var(--transition);
-        }
-        
-        .close-flashcards:hover {
-            background-color: rgba(255, 255, 255, 0.1);
-        }
-        
-        .flashcards-content {
-            flex: 1;
-            padding: 2rem;
-            overflow-y: auto;
-        }
-        
-        .flashcard {
-            background-color: var(--light-bg);
-            border-radius: var(--radius);
-            padding: 2rem;
-            margin-bottom: 2rem;
-            min-height: 300px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            cursor: pointer;
-            transition: var(--transition);
-            border: 1px solid rgba(0, 0, 0, 0.05);
-        }
-        
-        .flashcard:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-        }
-        
-        .flashcard-question, .flashcard-answer {
-            font-size: 1.3rem;
-            text-align: center;
-            margin-bottom: 1.5rem;
-        }
-        
-        .flashcard-explanation {
-            font-size: 0.95rem;
-            color: var(--text-light);
-            font-style: italic;
-            margin-top: 1.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid rgba(0, 0, 0, 0.1);
-        }
-        
-        .flashcard-section {
-            display: inline-block;
-            background-color: rgba(201, 169, 110, 0.2);
-            color: var(--primary-blue);
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            margin-bottom: 1rem;
-        }
-        
-        .flashcards-controls {
-            padding: 1.5rem;
-            background-color: var(--light-bg);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-top: 1px solid rgba(0, 0, 0, 0.1);
-        }
-        
-        .flashcards-nav {
-            display: flex;
-            gap: 1rem;
-        }
-        
-        .flashcards-nav button {
-            background-color: var(--primary-blue);
-            color: white;
-            border: none;
-            padding: 0.7rem 1.5rem;
-            border-radius: var(--radius);
-            cursor: pointer;
-            transition: var(--transition);
-        }
-        
-        .flashcards-nav button:hover:not(:disabled) {
-            background-color: var(--primary-dark);
-        }
-        
-        .flashcards-nav button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-        }
-        
-        .flashcards-progress {
-            font-weight: 600;
-            color: var(--primary-dark);
-        }
-        
-        .flashcards-filters {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
-        
-        .filter-btn {
-            background-color: rgba(201, 169, 110, 0.1);
-            color: var(--primary-blue);
-            border: 1px solid rgba(201, 169, 110, 0.3);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: var(--transition);
-            font-size: 0.9rem;
-        }
-        
-        .filter-btn.active {
-            background-color: var(--accent-gold);
-            color: var(--white);
-            border-color: var(--accent-gold);
-        }
-        
-        /* Content reloader */
-        .content-reloader {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 100;
-        }
-        
-        .reload-btn {
-            background-color: var(--accent-gold);
-            color: var(--primary-dark);
-            border: none;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-            transition: var(--transition);
-            font-size: 1.2rem;
-        }
-        
-        .reload-btn:hover {
-            transform: rotate(90deg);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-        }
-        
-        .toast {
-            position: fixed;
-            bottom: 80px;
-            right: 20px;
-            background-color: var(--primary-dark);
-            color: white;
-            padding: 1rem 1.5rem;
-            border-radius: var(--radius);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            z-index: 1000;
-            opacity: 0;
-            transform: translateY(20px);
-            transition: var(--transition);
-        }
-        
-        .toast.show {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        
-        /* Responsive */
-        @media (max-width: 992px) {
-            h1 {
-                font-size: 2rem;
-            }
-            
-            h2 {
-                font-size: 1.6rem;
-            }
-            
-            .pillar-cards {
-                grid-template-columns: 1fr;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .header-content {
-                flex-wrap: wrap;
-            }
-            
-            .nav-menu {
-                display: none;
-                width: 100%;
-                flex-direction: column;
-                margin-top: 1rem;
-                gap: 0;
-            }
-            
-            .nav-menu.show {
-                display: flex;
-            }
-            
-            .nav-link {
-                padding: 0.8rem 0;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            }
-            
-            .mobile-menu-btn {
-                display: block;
-            }
-            
-            .hero-actions {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .btn {
-                width: 100%;
-                max-width: 300px;
-                text-align: center;
-            }
-            
-            .section-card {
-                padding: 1.5rem;
-            }
-            
-            .flashcards-controls {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .flashcards-nav {
-                width: 100%;
-                justify-content: center;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation IA 2026 - Maîtrisez l'Intelligence Artificielle | CLPrepas360°</title>
+  <meta name="description" content="Formation IA intensive de 6 semaines avec 6 modules. Apprenez à maîtriser l'IA générative, automatisez vos processus et boostez votre productivité.">
+  <meta name="keywords" content="formation IA, intelligence artificielle 2026, ChatGPT, Midjourney, automatisation, CLPrepas360°, formation en ligne">
+  <meta property="og:title" content="Formation IA 2026 - CLPrepas360°">
+  <meta property="og:description" content="6 semaines pour maîtriser l'IA et transformer votre productivité">
+  <meta property="og:image" content="https://clprepas.com/images/formation-ia-2026-og.jpg">
+  <meta property="og:url" content="https://clprepas.com/formation-ia-2026">
+  <link rel="canonical" href="https://clprepas.com/formation-ia-2026">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <style>
+    :root {
+      --turquoise: #2EC4B6;
+      --turquoise-dark: #20A39E;
+      --marron: #8B4513;
+      --marron-light: #A0522D;
+      --clair: #F8F9FA;
+      --text-dark: #333333;
+    }
+
+    body { font-family: 'Inter', sans-serif; color: var(--text-dark); background: var(--clair); }
+    h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; }
+    .section { padding: 5rem 0; }
+    .section-title { border-left: 5px solid var(--marron); padding-left: 1rem; margin-bottom: 2rem; }
+    .navbar { background: #fff; box-shadow: 0 10px 24px rgba(0,0,0,.06); }
+    .hero { background: linear-gradient(135deg, rgba(46,196,182,.12), rgba(32,163,158,.08)); padding: 7rem 0 5rem; }
+    .badge-open { background: linear-gradient(135deg, var(--turquoise), var(--turquoise-dark)); color: #fff; border-radius: 999px; padding: .45rem .95rem; font-size: .84rem; }
+
+    .btn-inscription {
+      background: linear-gradient(135deg, var(--turquoise), var(--turquoise-dark)); color: #fff;
+      padding: 12px 30px; border-radius: 50px; font-weight: 600; border: 0; text-decoration: none;
+      transition: all .3s ease;
+    }
+    .btn-inscription:hover { color: #fff; transform: translateY(-2px); box-shadow: 0 8px 18px rgba(46,196,182,.35); }
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #25D366, #128C7E); color: #fff;
+      padding: 12px 30px; border-radius: 50px; font-weight: 600; border: 0; text-decoration: none;
+    }
+    .btn-whatsapp:hover { color:#fff; transform: translateY(-2px); }
+    .btn-secondary-custom {
+      border-radius: 50px; border: 2px solid var(--marron); color: var(--marron);
+      padding: 12px 30px; font-weight: 600; text-decoration: none;
+    }
+
+    .module-card { border-left: 5px solid var(--turquoise); background: #fff; border-radius: 1rem; padding: 1.25rem; height: 100%; transition: transform .3s ease; }
+    .module-card:hover { transform: translateY(-5px); }
+    .timeline { position: relative; padding-left: 1.7rem; }
+    .timeline:before { content: ''; position: absolute; left: .45rem; top: .3rem; bottom: .3rem; width: 2px; background: var(--turquoise); }
+    .timeline-item { position: relative; padding: .8rem 0 .8rem 1rem; }
+    .timeline-item:before { content:''; position:absolute; left:-.1rem; top:1.35rem; width:.8rem; height:.8rem; border-radius:50%; background: var(--marron); }
+
+    .feature-card, .testimonial-card, .price-card, .cert-card { background:#fff; border-radius:1rem; padding:1.3rem; box-shadow: 0 8px 20px rgba(0,0,0,.04); height:100%; }
+    .cert-card { background: linear-gradient(135deg, rgba(46,196,182,.14), rgba(139,69,19,.10)); }
+    .faq .accordion-button:not(.collapsed) { background: rgba(139,69,19,.09); color: var(--marron); }
+
+    .scroll-reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+    .scroll-reveal.visible { opacity: 1; transform: translateY(0); }
+
+    .video-frame { border-radius: 1rem; overflow: hidden; box-shadow: 0 12px 28px rgba(0,0,0,.12); }
+    .footer { background: #1c1c1c; color: #fff; padding: 2.5rem 0; }
+  </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container header-content">
-            <div class="logo">
-                CLP<span>360°</span> / CCQ
-            </div>
-            
-            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
-            
-            <nav class="nav-menu" id="navMenu">
-                <a href="#idee-directrice" class="nav-link">Idée directrice</a>
-                <a href="#principe" class="nav-link">Principe</a>
-                <a href="#lecture-quantique" class="nav-link">Lecture quantique</a>
-                <a href="#couronne" class="nav-link">Couronne</a>
-                <a href="#protocole" class="nav-link">Protocole</a>
-                <a href="#checklist" class="nav-link">Checklist</a>
-                <a href="#indicateurs" class="nav-link">Indicateurs</a>
-                <a href="#pieges" class="nav-link">Pièges</a>
-            </nav>
-            
-            <button class="study-mode-btn" id="studyModeBtn">Mode étude</button>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Couronne d'Alignement</h1>
-            <p class="hero-subtitle">Objectif, fréquence vibratoire, cohérence<br><em>Inspiration : Conscience Collective Quantique</em></p>
-            
-            <div class="hero-actions">
-                <a href="#idee-directrice" class="btn btn-primary">Lire le contenu</a>
-                <button class="btn btn-secondary" id="openFlashcardsBtn">Mode Flashcards</button>
-            </div>
-            
-            <div class="hero-visual">
-                <div>
-                    <div style="font-size: 3rem; color: var(--accent-gold); margin-bottom: 1rem;">⚡</div>
-                    <div>Visualisation : Fréquence vibratoire et alignement</div>
-                    <div style="font-size: 0.9rem; margin-top: 0.5rem;">[Placeholder pour bannière hero 1600×600]</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main Content -->
-    <main class="container" id="mainContent">
-        <!-- Le contenu sera chargé dynamiquement ici par JavaScript -->
-        <div id="contentLoader">Chargement du contenu...</div>
-    </main>
-
-    <!-- Flashcards Module -->
-    <div class="flashcards-modal" id="flashcardsModal">
-        <div class="flashcards-container">
-            <div class="flashcards-header">
-                <h3>Mode Flashcards - Couronne d'Alignement</h3>
-                <button class="close-flashcards" id="closeFlashcardsBtn">&times;</button>
-            </div>
-            
-            <div class="flashcards-content">
-                <div class="flashcards-filters" id="flashcardFilters"></div>
-                <div id="flashcardContainer">
-                    <!-- Les flashcards seront chargées dynamiquement ici -->
-                    <div style="text-align: center; padding: 3rem;">
-                        <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
-                        <h3>Chargement des flashcards...</h3>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="flashcards-controls">
-                <div class="flashcards-nav">
-                    <button id="prevFlashcard" disabled>Précédent</button>
-                    <button id="flipFlashcard">Retourner</button>
-                    <button id="nextFlashcard">Suivant</button>
-                    <button id="markFlashcard">Marquer "compris"</button>
-                </div>
-                <div class="flashcards-progress" id="flashcardProgress">0/0</div>
-            </div>
-        </div>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#formation-ia-2026-hero">CLPrepas360°</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-details">Détails</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-modules">Modules</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-methode">Méthode</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-video">Vidéo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-tarifs">Inscription</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation-ia-2026-faq">FAQ</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <!-- Content Reloader -->
-    <div class="content-reloader">
-        <button class="reload-btn" id="reloadContentBtn" title="Recharger le contenu">↻</button>
-    </div>
-    
-    <!-- Toast Notification -->
-    <div class="toast" id="toastNotification"></div>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-signature">LUMEN SUPERNOVA</div>
-            <p class="footer-note">Module d'essai — CLPrepas360°</p>
-            <p class="footer-note" style="margin-top: 1rem; font-size: 0.8rem;">Contenu chargé en mode : <span id="contentMode">local intégré</span></p>
+  <header id="formation-ia-2026-hero" class="hero">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <span class="badge-open d-inline-flex align-items-center mb-3"><i class="fa-solid fa-circle-check me-2"></i>Inscriptions ouvertes</span>
+          <h1 class="display-5 fw-bold">Formation IA 2026 - Maîtrisez l'Intelligence Artificielle en 6 Semaines</h1>
+          <p class="lead mb-4">6 modules intensifs • 2 sessions live Zoom • Certification CLPrepas360°</p>
+          <div class="d-flex flex-column flex-md-row gap-3">
+            <a class="btn-inscription text-center" href="mailto:elhisse@clprepas.com?subject=Inscription%20Formation%20IA%202026">S'inscrire par email</a>
+            <a class="btn-whatsapp text-center" href="https://wa.me/33612345678?text=Bonjour,%20je%20m'int%C3%A9resse%20%C3%A0%20la%20Formation%20IA%202026" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
+          </div>
+          <a class="btn-secondary-custom d-inline-block mt-3" href="#formation-ia-2026-tarifs">Télécharger le programme complet (PDF) Guide Formation-IA-2026</a>
+          <div class="mt-4 p-3 bg-white rounded-4 shadow-sm d-inline-flex align-items-center gap-3">
+            <i class="fa-solid fa-hourglass-half text-warning"></i>
+            <div><strong>Début en [MOIS] 2026</strong><br><small>Places limitées</small></div>
+          </div>
         </div>
-    </footer>
+        <div class="col-lg-6">
+          <img src="hero-banner.jpg.png" alt="Professionnels apprenant l'intelligence artificielle pendant la formation CLPrepas360°" class="img-fluid rounded-4 shadow">
+        </div>
+      </div>
+    </div>
+  </header>
 
-    <!-- JavaScript intégré -->
-    <script>
-        // ===== CONFIGURATION =====
-        const CONFIG = {
-            BASE_URL: "https://clprepas.com/ccq-couronne/",
-            API_BASE_URL: "https://api.clprepas.com",
-            API_ENDPOINT_CONTENT: "/ccq/modules/couronne-alignement",
-            API_ENDPOINT_FLASHCARDS: "/ccq/flashcards/couronne-alignement",
-            USE_API: false // Changé à true pour utiliser l'API (si disponible)
-        };
-        
-        // ===== CONTENU INTÉGRÉ (FALLBACK) =====
-        const EMBEDDED_CONTENT = {
-            "sections": [
-                {
-                    "id": "idee-directrice",
-                    "title": "Idée directrice",
-                    "content": `
-                        <p>Vous ne changez pas votre vie seulement avec un objectif.</p>
-                        <p>Vous changez votre vie quand votre objectif, votre état intérieur et vos actions racontent la même histoire.</p>
-                        <p>Vous appelez cela votre "fréquence".</p>
-                        <p>Je l'utilise ici comme un mot pratique.</p>
-                        <p><strong>Votre fréquence = votre cohérence.</strong></p>
-                    `,
-                    "actionSummary": "Votre vie change quand objectif, état intérieur et actions sont alignés. Cette cohérence devient votre fréquence vibratoire."
-                },
-                {
-                    "id": "principe",
-                    "title": "Traduction simple du principe",
-                    "content": `
-                        <p><strong>Objectif.</strong><br>C'est une direction.</p>
-                        <p><strong>Fréquence.</strong><br>C'est votre état dominant.<br>Vos émotions habituelles.<br>Vos croyances actives.<br>Votre posture.<br>Vos standards.</p>
-                        <p>Le monde "répond" surtout à ce que vous répétez.<br>Pas à ce que vous espérez.</p>
-                    `,
-                    "actionSummary": "Le monde répond à votre état dominant, pas à vos espoirs. Définissez clairement votre objectif et alignez-y votre état intérieur."
-                },
-                {
-                    "id": "lecture-quantique",
-                    "title": "Lecture \"quantique\" en métaphores utiles",
-                    "content": `
-                        <p><strong>Superposition.</strong><br>Plusieurs futurs restent possibles.<br>Vous gardez des options ouvertes.</p>
-                        <p><strong>Observation.</strong><br>Vous regardez votre état réel sans jugement.<br>Vous arrêtez l'auto-illusion.</p>
-                        <p><strong>Cohérence.</strong><br>Quand pensée, émotion et action se synchronisent, vous amplifiez un chemin.</p>
-                        <p><strong>Interférences.</strong><br>Vos contradictions internes créent du bruit.<br>Exemple : Vous dites "je veux", mais vous vivez "je doute".</p>
-                        <p><strong>Intrication.</strong><br>Votre état influence vos relations.<br>Votre entourage influence votre état.<br>Vous travaillez donc aussi votre écosystème.</p>
-                    `,
-                    "actionSummary": "Utilisez les métaphores quantiques pour comprendre votre alignement : superposition, observation, cohérence, interférences, intrication."
-                },
-                {
-                    "id": "couronne",
-                    "title": "Les 5 piliers de l'alignement (la Couronne)",
-                    "content": `
-                        <div class="pillar-cards">
-                            <div class="pillar-card">
-                                <h4>Pilier 1. Clarté</h4>
-                                <p>Vous écrivez votre objectif en une phrase.<br>Vous ajoutez une date.<br>Vous ajoutez un "pourquoi" en une phrase.</p>
-                            </div>
-                            <div class="pillar-card">
-                                <h4>Pilier 2. Vérité émotionnelle</h4>
-                                <p>Vous nommez votre émotion dominante actuelle.<br>Vous l'acceptez.<br>Vous ne la combattez pas.<br>Vous la transformez par l'action.</p>
-                            </div>
-                            <div class="pillar-card">
-                                <h4>Pilier 3. Identité</h4>
-                                <p>Vous décidez qui vous êtes dans ce projet.<br>Une identité simple.<br>"Je suis quelqu'un qui ..."<br>Puis vous agissez comme cette personne.</p>
-                            </div>
-                            <div class="pillar-card">
-                                <h4>Pilier 4. Action cohérente</h4>
-                                <p>Vous choisissez 1 action par jour.<br>Petite.<br>Mesurable.<br>Non négociable.</p>
-                            </div>
-                            <div class="pillar-card">
-                                <h4>Pilier 5. Écosystème</h4>
-                                <p>Vous réduisez le bruit.<br>Vous augmentez le soutien.<br>Vous choisissez des personnes, des lieux, des contenus qui renforcent votre cap.</p>
-                            </div>
-                        </div>
-                    `,
-                    "actionSummary": "Appliquez les 5 piliers : Clarté, Vérité émotionnelle, Identité, Action cohérente, Écosystème. C'est votre couronne d'alignement."
-                },
-                {
-                    "id": "protocole",
-                    "title": "Protocole quotidien en 7 minutes",
-                    "content": `
-                        <p><strong>Minute 1.</strong><br>Respiration lente.<br>Vous revenez au corps.</p>
-                        <p><strong>Minute 2.</strong><br>Vous dites votre objectif en 1 phrase.</p>
-                        <p><strong>Minutes 3-4.</strong><br>Vous ressentez l'état aligné.<br>Calme.<br>Confiance.<br>Service.<br>Vous choisissez un mot-clé.</p>
-                        <p><strong>Minutes 5-6.</strong><br>Vous écrivez l'action du jour.<br>Une action unique.</p>
-                        <p><strong>Minute 7.</strong><br>Vous envoyez un signal à l'écosystème.<br>Un message.<br>Un rendez-vous.<br>Une demande.<br>Une contribution.</p>
-                    `,
-                    "actionSummary": "Pratiquez ce protocole de 7 minutes chaque jour : respiration, objectif, état aligné, action, signal à l'écosystème."
-                },
-                {
-                    "id": "checklist",
-                    "title": "Checklist d'alignement avant une décision importante",
-                    "content": `
-                        <ul class="checklist">
-                            <li>Mon objectif est clair en 1 phrase.</li>
-                            <li>Mon corps est calme. Je respire lentement.</li>
-                            <li>Je sais ce que je ressens. Je ne me mens pas.</li>
-                            <li>Je choisis une intention. Je choisis aussi une limite.</li>
-                            <li>Je fais une action test dans les 24 heures.</li>
-                            <li>Je demande un retour réel (personne, donnée, preuve).</li>
-                            <li>Je corrige sans me juger.</li>
-                        </ul>
-                    `,
-                    "actionSummary": "Avant toute décision importante, utilisez cette checklist en 7 points pour vérifier votre alignement."
-                },
-                {
-                    "id": "indicateurs",
-                    "title": "Indicateurs concrets que vous êtes aligné",
-                    "content": `
-                        <ul style="list-style-type: none;">
-                            <li>✓ Vous agissez plus vite.</li>
-                            <li>✓ Vous justifiez moins.</li>
-                            <li>✓ Vous dormez mieux.</li>
-                            <li>✓ Vos échanges deviennent plus simples.</li>
-                            <li>✓ Les opportunités arrivent par des contacts et des coïncidences utiles.</li>
-                            <li>✓ Vous restez stable quand il y a du bruit.</li>
-                        </ul>
-                    `,
-                    "actionSummary": "Reconnaissez l'alignement à ces signes : action rapide, moins de justification, meilleur sommeil, échanges simples, opportunités, stabilité."
-                },
-                {
-                    "id": "pieges",
-                    "title": "Pièges classiques",
-                    "content": `
-                        <p><strong>Piège 1.</strong><br>Vous cherchez un signe au lieu de faire une action.</p>
-                        <p><strong>Piège 2.</strong><br>Vous confondez "alignement" et "absence de peur".<br>L'alignement accepte la peur.<br>Il agit quand même.</p>
-                        <p><strong>Piège 3.</strong><br>Vous changez d'objectif trop tôt.<br>Vous ne laissez pas le temps aux causes de produire des effets.</p>
-                    `,
-                    "actionSummary": "Évitez ces 3 pièges : 1) Attendre un signe au lieu d'agir, 2) Croire que l'alignement = absence de peur, 3) Changer d'objectif trop tôt."
-                },
-                {
-                    "id": "conclusion",
-                    "title": "Conclusion opérationnelle",
-                    "content": `
-                        <p>Vous ne forcez pas le monde.<br>Vous forcez votre cohérence.</p>
-                        <p>Votre cohérence devient votre fréquence.<br>Votre fréquence guide vos décisions.<br>Vos décisions répètent un signal.<br>Le signal attire des réponses.</p>
-                    `,
-                    "actionSummary": "Forcez votre cohérence, pas le monde. Cette cohérence devient votre fréquence, guide vos décisions et attire les réponses."
-                }
-            ]
-        };
-        
-        // ===== FLASHCARDS INTÉGRÉES (FALLBACK) =====
-        const EMBEDDED_FLASHCARDS = [
-            {
-                "id": "ccq-001",
-                "section": "Idée directrice",
-                "question": "Que représente votre \"fréquence\" dans le contexte de l'alignement ?",
-                "answer": "Votre fréquence représente votre cohérence entre objectif, état intérieur et actions.",
-                "explanation": "Le terme 'fréquence' est utilisé comme mot pratique pour désigner l'alignement et la cohérence."
-            },
-            {
-                "id": "ccq-002",
-                "section": "Principe",
-                "question": "À quoi le monde \"répond\"-il principalement selon le principe d'alignement ?",
-                "answer": "Le monde répond surtout à ce que vous répétez (votre état dominant), pas à ce que vous espérez.",
-                "explanation": "Vos actions, émotions et croyances répétées ont plus d'impact que vos espoirs."
-            },
-            {
-                "id": "ccq-003",
-                "section": "Principe",
-                "question": "Quels éléments composent votre \"fréquence\" ou état dominant ?",
-                "answer": "Vos émotions habituelles, croyances actives, posture et standards.",
-                "explanation": "Ces éléments créent votre état intérieur dominant qui influence vos résultats."
-            },
-            {
-                "id": "ccq-004",
-                "section": "Lecture quantique",
-                "question": "Que signifie \"superposition\" dans la métaphore quantique de l'alignement ?",
-                "answer": "Plusieurs futurs restent possibles, vous gardez des options ouvertes.",
-                "explanation": "Comme en physique quantique, plusieurs possibilités coexistent jusqu'à l'observation/action."
-            },
-            {
-                "id": "ccq-005",
-                "section": "Lecture quantique",
-                "question": "Que sont les \"interférences\" dans le contexte de l'alignement ?",
-                "answer": "Ce sont vos contradictions internes qui créent du bruit, comme dire \"je veux\" mais vivre \"je doute\".",
-                "explanation": "Ces contradictions entre pensées, paroles et actions réduisent votre cohérence."
-            },
-            {
-                "id": "ccq-006",
-                "section": "Couronne",
-                "question": "Quels sont les 5 piliers de la Couronne d'Alignement ?",
-                "answer": "1. Clarté, 2. Vérité émotionnelle, 3. Identité, 4. Action cohérente, 5. Écosystème.",
-                "explanation": "Ces 5 piliers structurent la pratique de l'alignement."
-            },
-            {
-                "id": "ccq-007",
-                "section": "Couronne",
-                "question": "Que contient le pilier \"Clarté\" ?",
-                "answer": "Écrire son objectif en une phrase avec une date et un \"pourquoi\" en une phrase.",
-                "explanation": "La clarté précise de l'objectif est fondamentale pour l'alignement."
-            },
-            {
-                "id": "ccq-008",
-                "section": "Couronne",
-                "question": "Comment procéder avec le pilier \"Vérité émotionnelle\" ?",
-                "answer": "Nommer son émotion dominante, l'accepter sans la combattre, puis la transformer par l'action.",
-                "explanation": "L'acceptation émotionnelle précède la transformation par l'action."
-            },
-            {
-                "id": "ccq-009",
-                "section": "Couronne",
-                "question": "Comment mettre en œuvre le pilier \"Identité\" ?",
-                "answer": "Décider qui on est dans le projet avec une phrase simple \"Je suis quelqu'un qui...\" puis agir comme cette personne.",
-                "explanation": "L'identité précède et guide l'action cohérente."
-            },
-            {
-                "id": "ccq-010",
-                "section": "Couronne",
-                "question": "Quelles caractéristiques doit avoir l'action du pilier \"Action cohérente\" ?",
-                "answer": "1 action par jour, petite, mesurable, non négociable.",
-                "explanation": "La régularité et la simplicité des actions renforcent l'alignement."
-            },
-            {
-                "id": "ccq-011",
-                "section": "Couronne",
-                "question": "Que signifie travailler son \"Écosystème\" selon le 5ème pilier ?",
-                "answer": "Réduire le bruit, augmenter le soutien, choisir des personnes, lieux et contenus qui renforcent son cap.",
-                "explanation": "L'environnement influence fortement votre alignement."
-            },
-            {
-                "id": "ccq-012",
-                "section": "Protocole",
-                "question": "Combien de temps dure le protocole quotidien d'alignement ?",
-                "answer": "7 minutes.",
-                "explanation": "Un protocole court mais complet pour maintenir l'alignement quotidien."
-            },
-            {
-                "id": "ccq-013",
-                "section": "Protocole",
-                "question": "Que fait-on pendant la minute 1 du protocole ?",
-                "answer": "Respiration lente pour revenir au corps.",
-                "explanation": "La première étape est l'ancrage corporel par la respiration."
-            },
-            {
-                "id": "ccq-014",
-                "section": "Protocole",
-                "question": "Que fait-on pendant les minutes 3-4 du protocole ?",
-                "answer": "On ressent l'état aligné (calme, confiance, service) et on choisit un mot-clé.",
-                "explanation": "L'état intérieur aligné est cultivé intentionnellement."
-            },
-            {
-                "id": "ccq-015",
-                "section": "Protocole",
-                "question": "Que fait-on pendant la minute 7 du protocole ?",
-                "answer": "On envoie un signal à l'écosystème (message, rendez-vous, demande, contribution).",
-                "explanation": "L'action externe complète le travail interne d'alignement."
-            },
-            {
-                "id": "ccq-016",
-                "section": "Checklist",
-                "question": "Combien d'items contient la checklist d'alignement avant une décision importante ?",
-                "answer": "7 items.",
-                "explanation": "Une checklist en 7 points pour vérifier son alignement avant une décision."
-            },
-            {
-                "id": "ccq-017",
-                "section": "Checklist",
-                "question": "Que vérifie le premier item de la checklist ?",
-                "answer": "Que mon objectif est clair en 1 phrase.",
-                "explanation": "La clarté de l'objectif est la première condition d'alignement."
-            },
-            {
-                "id": "ccq-018",
-                "section": "Checklist",
-                "question": "Que recommande le 5ème item de la checklist ?",
-                "answer": "Faire une action test dans les 24 heures.",
-                "explanation": "L'action test permet de valider la décision dans la réalité."
-            },
-            {
-                "id": "ccq-019",
-                "section": "Indicateurs",
-                "question": "Citez 3 indicateurs concrets que vous êtes aligné.",
-                "answer": "Exemples : Vous agissez plus vite, vous justifiez moins, vous dormez mieux.",
-                "explanation": "Ces signes tangibles montrent que l'alignement est effectif."
-            },
-            {
-                "id": "ccq-020",
-                "section": "Indicateurs",
-                "question": "Comment se manifestent les opportunités quand vous êtes aligné ?",
-                "answer": "Elles arrivent par des contacts et des coïncidences utiles.",
-                "explanation": "L'alignement crée une résonance qui attire les opportunités pertinentes."
-            },
-            {
-                "id": "ccq-021",
-                "section": "Pièges",
-                "question": "Quel est le premier piège classique de l'alignement ?",
-                "answer": "Chercher un signe au lieu de faire une action.",
-                "explanation": "L'attente passive d'un signe empêche l'action alignée."
-            },
-            {
-                "id": "ccq-022",
-                "section": "Pièges",
-                "question": "Quelle confusion caractérise le deuxième piège ?",
-                "answer": "Confondre \"alignement\" et \"absence de peur\".",
-                "explanation": "L'alignement accepte la peur mais agit quand même."
-            },
-            {
-                "id": "ccq-023",
-                "section": "Pièges",
-                "question": "Quel est le troisième piège classique ?",
-                "answer": "Changer d'objectif trop tôt, ne pas laisser le temps aux causes de produire des effets.",
-                "explanation": "L'impatience brise l'alignement avant que les résultats n'apparaissent."
-            },
-            {
-                "id": "ccq-024",
-                "section": "Conclusion",
-                "question": "Que devriez-vous \"forcer\" selon la conclusion opérationnelle ?",
-                "answer": "Forcer votre cohérence, pas le monde.",
-                "explanation": "La cohérence interne est le seul élément que vous pouvez contrôler directement."
-            }
-        ];
-        
-        // ===== ÉTAT GLOBAL =====
-        const STATE = {
-            currentFlashcardIndex: 0,
-            flashcards: [],
-            filteredFlashcards: [],
-            sections: [],
-            contentMode: 'embedded',
-            flashcardsMode: 'embedded',
-            isFlashcardFlipped: false,
-            markedFlashcards: new Set()
-        };
-        
-        // ===== INITIALISATION =====
-        document.addEventListener('DOMContentLoaded', function() {
-            initializeApp();
-        });
-        
-        async function initializeApp() {
-            // Charger le contenu
-            await loadContent();
-            
-            // Charger les flashcards
-            await loadFlashcards();
-            
-            // Initialiser la navigation
-            initNavigation();
-            
-            // Initialiser les flashcards
-            initFlashcards();
-            
-            // Initialiser le rechargement de contenu
-            initContentReloader();
-            
-            // Initialiser les animations au scroll
-            initScrollAnimations();
-            
-            // Initialiser le menu mobile
-            initMobileMenu();
-        }
-        
-        // ===== SYSTEME DE CHARGEMENT DE CONTENU =====
-        async function loadContent() {
-            const contentLoader = document.getElementById('contentLoader');
-            
-            try {
-                // MODE 3 - API (si activé)
-                if (CONFIG.USE_API && window.CCQ_USE_API) {
-                    try {
-                        const response = await fetch(`${CONFIG.API_BASE_URL}${CONFIG.API_ENDPOINT_CONTENT}`);
-                        if (response.ok) {
-                            const data = await response.json();
-                            STATE.sections = data.sections;
-                            STATE.contentMode = 'api';
-                            renderContent();
-                            showToast('Contenu chargé depuis l\'API');
-                            return;
-                        }
-                    } catch (error) {
-                        console.warn('API inaccessible, passage au mode local JSON', error);
-                    }
-                }
-                
-                // MODE 2 - Local JSON
-                try {
-                    const response = await fetch('./data/content.json');
-                    if (response.ok) {
-                        const data = await response.json();
-                        STATE.sections = data.sections;
-                        STATE.contentMode = 'local-json';
-                        renderContent();
-                        showToast('Contenu chargé depuis le fichier local');
-                        return;
-                    }
-                } catch (error) {
-                    console.warn('Fichier JSON local inaccessible, passage au mode intégré', error);
-                }
-                
-                // MODE 1 - Embedded (fallback)
-                STATE.sections = EMBEDDED_CONTENT.sections;
-                STATE.contentMode = 'embedded';
-                renderContent();
-                showToast('Contenu chargé depuis la source intégrée');
-                
-            } catch (error) {
-                console.error('Erreur lors du chargement du contenu:', error);
-                contentLoader.innerHTML = `
-                    <div class="section-card">
-                        <h3>Erreur de chargement</h3>
-                        <p>Impossible de charger le contenu. Veuillez réessayer.</p>
-                        <button onclick="location.reload()" class="btn btn-primary">Recharger la page</button>
-                    </div>
-                `;
-            }
-        }
-        
-        function renderContent() {
-            const mainContent = document.getElementById('mainContent');
-            let html = '';
-            
-            STATE.sections.forEach((section, index) => {
-                html += `
-                    <section id="${section.id}" class="section-card">
-                        <div class="card-header">
-                            <div class="card-icon">${index + 1}</div>
-                            <h2>${section.title}</h2>
-                        </div>
-                        <div class="card-content">
-                            ${section.content}
-                            <div class="action-summary">
-                                <h4>Résumé action :</h4>
-                                <p>${section.actionSummary}</p>
-                            </div>
-                        </div>
-                    </section>
-                `;
-            });
-            
-            mainContent.innerHTML = html;
-            
-            // Mettre à jour l'affichage du mode de contenu
-            document.getElementById('contentMode').textContent = STATE.contentMode;
-        }
-        
-        // ===== SYSTEME DE CHARGEMENT DES FLASHCARDS =====
-        async function loadFlashcards() {
-            try {
-                // MODE 3 - API (si activé)
-                if (CONFIG.USE_API && window.CCQ_USE_API) {
-                    try {
-                        const response = await fetch(`${CONFIG.API_BASE_URL}${CONFIG.API_ENDPOINT_FLASHCARDS}`);
-                        if (response.ok) {
-                            const data = await response.json();
-                            STATE.flashcards = data;
-                            STATE.flashcardsMode = 'api';
-                            return;
-                        }
-                    } catch (error) {
-                        console.warn('API flashcards inaccessible, passage au mode local JSON', error);
-                    }
-                }
-                
-                // MODE 2 - Local JSON
-                try {
-                    const response = await fetch('./data/flashcards.json');
-                    if (response.ok) {
-                        const data = await response.json();
-                        STATE.flashcards = data;
-                        STATE.flashcardsMode = 'local-json';
-                        return;
-                    }
-                } catch (error) {
-                    console.warn('Fichier JSON flashcards local inaccessible, passage au mode intégré', error);
-                }
-                
-                // MODE 1 - Embedded (fallback)
-                STATE.flashcards = EMBEDDED_FLASHCARDS;
-                STATE.flashcardsMode = 'embedded';
-                
-            } catch (error) {
-                console.error('Erreur lors du chargement des flashcards:', error);
-                STATE.flashcards = EMBEDDED_FLASHCARDS;
-                STATE.flashcardsMode = 'embedded';
-            }
-            
-            // Initialiser les flashcards filtrées
-            STATE.filteredFlashcards = [...STATE.flashcards];
-        }
-        
-        // ===== SYSTEME DE FLASHCARDS =====
-        function initFlashcards() {
-            const openFlashcardsBtn = document.getElementById('openFlashcardsBtn');
-            const closeFlashcardsBtn = document.getElementById('closeFlashcardsBtn');
-            const studyModeBtn = document.getElementById('studyModeBtn');
-            const flashcardsModal = document.getElementById('flashcardsModal');
-            
-            // Ouvrir les flashcards
-            openFlashcardsBtn.addEventListener('click', () => {
-                flashcardsModal.style.display = 'flex';
-                renderFlashcardFilters();
-                renderCurrentFlashcard();
-            });
-            
-            studyModeBtn.addEventListener('click', () => {
-                flashcardsModal.style.display = 'flex';
-                renderFlashcardFilters();
-                renderCurrentFlashcard();
-            });
-            
-            // Fermer les flashcards
-            closeFlashcardsBtn.addEventListener('click', () => {
-                flashcardsModal.style.display = 'none';
-            });
-            
-            // Navigation des flashcards
-            document.getElementById('prevFlashcard').addEventListener('click', showPreviousFlashcard);
-            document.getElementById('nextFlashcard').addEventListener('click', showNextFlashcard);
-            document.getElementById('flipFlashcard').addEventListener('click', flipFlashcard);
-            document.getElementById('markFlashcard').addEventListener('click', markCurrentFlashcard);
-            
-            // Fermer en cliquant à l'extérieur
-            flashcardsModal.addEventListener('click', (e) => {
-                if (e.target === flashcardsModal) {
-                    flashcardsModal.style.display = 'none';
-                }
-            });
-        }
-        
-        function renderFlashcardFilters() {
-            const filtersContainer = document.getElementById('flashcardFilters');
-            
-            // Obtenir toutes les sections uniques
-            const sections = [...new Set(STATE.flashcards.map(card => card.section))];
-            
-            let html = `<button class="filter-btn active" data-section="all">Toutes les sections</button>`;
-            
-            sections.forEach(section => {
-                html += `<button class="filter-btn" data-section="${section}">${section}</button>`;
-            });
-            
-            filtersContainer.innerHTML = html;
-            
-            // Ajouter les écouteurs d'événements
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.addEventListener('click', function() {
-                    // Mettre à jour les boutons actifs
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                    
-                    // Filtrer les flashcards
-                    const section = this.getAttribute('data-section');
-                    if (section === 'all') {
-                        STATE.filteredFlashcards = [...STATE.flashcards];
-                    } else {
-                        STATE.filteredFlashcards = STATE.flashcards.filter(card => card.section === section);
-                    }
-                    
-                    // Réinitialiser l'index
-                    STATE.currentFlashcardIndex = 0;
-                    STATE.isFlashcardFlipped = false;
-                    
-                    // Afficher la première flashcard
-                    renderCurrentFlashcard();
-                });
-            });
-        }
-        
-        function renderCurrentFlashcard() {
-            const container = document.getElementById('flashcardContainer');
-            
-            if (STATE.filteredFlashcards.length === 0) {
-                container.innerHTML = `
-                    <div class="flashcard">
-                        <h3>Aucune flashcard disponible pour cette section</h3>
-                        <p>Essayez une autre section ou rechargez les flashcards.</p>
-                    </div>
-                `;
-                updateFlashcardControls();
-                return;
-            }
-            
-            const card = STATE.filteredFlashcards[STATE.currentFlashcardIndex];
-            const isMarked = STATE.markedFlashcards.has(card.id);
-            
-            let content = '';
-            
-            if (STATE.isFlashcardFlipped) {
-                content = `
-                    <div class="flashcard-section">${card.section}</div>
-                    <div class="flashcard-answer">${card.answer}</div>
-                    ${card.explanation ? `<div class="flashcard-explanation">${card.explanation}</div>` : ''}
-                    ${isMarked ? '<div style="color: var(--accent-gold); margin-top: 1rem; font-weight: bold;">✓ Marqué comme "compris"</div>' : ''}
-                `;
-            } else {
-                content = `
-                    <div class="flashcard-section">${card.section}</div>
-                    <div class="flashcard-question">${card.question}</div>
-                    <div style="text-align: center; margin-top: 2rem; color: var(--text-light);">
-                        <small>Cliquez sur la carte ou sur le bouton "Retourner" pour voir la réponse</small>
-                    </div>
-                `;
-            }
-            
-            container.innerHTML = `
-                <div class="flashcard" id="currentFlashcard">
-                    ${content}
-                </div>
-            `;
-            
-            // Ajouter l'écouteur pour retourner au clic
-            document.getElementById('currentFlashcard').addEventListener('click', flipFlashcard);
-            
-            updateFlashcardControls();
-        }
-        
-        function updateFlashcardControls() {
-            // Mettre à jour la progression
-            const total = STATE.filteredFlashcards.length;
-            const current = STATE.currentFlashcardIndex + 1;
-            document.getElementById('flashcardProgress').textContent = `${current}/${total}`;
-            
-            // Activer/désactiver les boutons de navigation
-            document.getElementById('prevFlashcard').disabled = STATE.currentFlashcardIndex === 0;
-            document.getElementById('nextFlashcard').disabled = STATE.currentFlashcardIndex === STATE.filteredFlashcards.length - 1;
-            
-            // Mettre à jour le texte du bouton "Retourner"
-            document.getElementById('flipFlashcard').textContent = STATE.isFlashcardFlipped ? 'Voir la question' : 'Voir la réponse';
-            
-            // Mettre à jour le bouton "Marquer"
-            const currentCard = STATE.filteredFlashcards[STATE.currentFlashcardIndex];
-            const isMarked = STATE.markedFlashcards.has(currentCard?.id);
-            document.getElementById('markFlashcard').textContent = isMarked ? 'Retirer "compris"' : 'Marquer "compris"';
-        }
-        
-        function showPreviousFlashcard() {
-            if (STATE.currentFlashcardIndex > 0) {
-                STATE.currentFlashcardIndex--;
-                STATE.isFlashcardFlipped = false;
-                renderCurrentFlashcard();
-            }
-        }
-        
-        function showNextFlashcard() {
-            if (STATE.currentFlashcardIndex < STATE.filteredFlashcards.length - 1) {
-                STATE.currentFlashcardIndex++;
-                STATE.isFlashcardFlipped = false;
-                renderCurrentFlashcard();
-            }
-        }
-        
-        function flipFlashcard() {
-            STATE.isFlashcardFlipped = !STATE.isFlashcardFlipped;
-            renderCurrentFlashcard();
-        }
-        
-        function markCurrentFlashcard() {
-            const currentCard = STATE.filteredFlashcards[STATE.currentFlashcardIndex];
-            if (!currentCard) return;
-            
-            if (STATE.markedFlashcards.has(currentCard.id)) {
-                STATE.markedFlashcards.delete(currentCard.id);
-            } else {
-                STATE.markedFlashcards.add(currentCard.id);
-            }
-            
-            renderCurrentFlashcard();
-        }
-        
-        // ===== NAVIGATION ET ANIMATIONS =====
-        function initNavigation() {
-            // Navigation par ancres
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
-                    
-                    if (targetElement) {
-                        // Fermer le menu mobile s'il est ouvert
-                        document.getElementById('navMenu').classList.remove('show');
-                        
-                        // Scroll vers la cible
-                        window.scrollTo({
-                            top: targetElement.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                        
-                        // Mettre à jour le lien actif
-                        updateActiveNavLink(targetId);
-                    }
-                });
-            });
-            
-            // Mettre à jour le lien actif au scroll
-            window.addEventListener('scroll', updateActiveNavLinkOnScroll);
-        }
-        
-        function updateActiveNavLink(targetId) {
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === targetId) {
-                    link.classList.add('active');
-                }
-            });
-        }
-        
-        function updateActiveNavLinkOnScroll() {
-            const sections = document.querySelectorAll('.section-card');
-            let currentSectionId = '';
-            
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop - 100;
-                const sectionHeight = section.clientHeight;
-                
-                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-                    currentSectionId = '#' + section.id;
-                }
-            });
-            
-            if (currentSectionId) {
-                updateActiveNavLink(currentSectionId);
-            }
-        }
-        
-        function initScrollAnimations() {
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
-            
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    }
-                });
-            }, observerOptions);
-            
-            // Observer toutes les cartes de section
-            document.querySelectorAll('.section-card').forEach(card => {
-                observer.observe(card);
-            });
-        }
-        
-        function initMobileMenu() {
-            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-            const navMenu = document.getElementById('navMenu');
-            
-            mobileMenuBtn.addEventListener('click', () => {
-                navMenu.classList.toggle('show');
-            });
-            
-            // Fermer le menu en cliquant sur un lien
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.addEventListener('click', () => {
-                    navMenu.classList.remove('show');
-                });
-            });
-        }
-        
-        // ===== RECHARGEMENT DE CONTENU =====
-        function initContentReloader() {
-            const reloadBtn = document.getElementById('reloadContentBtn');
-            
-            reloadBtn.addEventListener('click', async () => {
-                // Réinitialiser les états
-                STATE.contentMode = '';
-                STATE.flashcardsMode = '';
-                
-                // Recharger le contenu
-                await loadContent();
-                
-                // Recharger les flashcards
-                await loadFlashcards();
-                
-                // Réinitialiser l'affichage des flashcards si elles sont ouvertes
-                if (document.getElementById('flashcardsModal').style.display === 'flex') {
-                    renderFlashcardFilters();
-                    renderCurrentFlashcard();
-                }
-                
-                showToast(`Contenu rechargé (mode: ${STATE.contentMode})`);
-            });
-        }
-        
-        // ===== FONCTIONS UTILITAIRES =====
-        function showToast(message) {
-            const toast = document.getElementById('toastNotification');
-            toast.textContent = message;
-            toast.classList.add('show');
-            
-            setTimeout(() => {
-                toast.classList.remove('show');
-            }, 3000);
-        }
-        
-        // ===== PISTES D'ÉVOLUTION (commentaires) =====
-        /*
-        PISTES D'ÉVOLUTION POUR UN SYSTÈME COMPLET :
-        
-        1) "Cours" = modules JSON
-           - Structure: {id, title, objectives, sections[], quizzes[], flashcards[]}
-           - Navigation entre modules
-           - Progression sauvegardée dans localStorage
-           - Synchronisation avec API pour les membres
-           
-        2) "Progression" = tableau de bord
-           - Suivi des flashcards complétées
-           - Scores aux quiz
-           - Temps passé par module
-           - Badges de réussite
-           - Export des données de progression
-           
-        3) "Espace membre" = authentification
-           - Login via API (JWT tokens)
-           - Accès aux modules premium
-           - Communauté / forums intégrés
-           - Coaching personnalisé
-           - Contenu exclusif
-        */
-    </script>
+  <section id="formation-ia-2026-details" class="section scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Formation IA 2026 en détail</h2></div>
+      <div class="row g-3">
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-calendar-check text-success mb-2"></i><h5>Durée</h5><p>6 semaines intensives.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-video text-primary mb-2"></i><h5>Format</h5><p>100% en ligne + 2 sessions Zoom interactives.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-layer-group text-warning mb-2"></i><h5>Modules</h5><p>6 modules progressifs.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-signal text-success mb-2"></i><h5>Niveau</h5><p>Débutant à Avancé.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-certificate text-primary mb-2"></i><h5>Certification</h5><p>Diplôme CLPrepas360°.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="fa-solid fa-infinity text-warning mb-2"></i><h5>Accès</h5><p>Illimité aux ressources.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-modules" class="section bg-white scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>6 Modules - 6 Semaines</h2></div>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 1</span><h5 class="mt-2">Fondamentaux de l'IA générative</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 2</span><h5 class="mt-2">Prompt engineering avancé</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 3</span><h5 class="mt-2">Automatisation des workflows</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 4</span><h5 class="mt-2">IA pour la productivité</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 5</span><h5 class="mt-2">Projet pratique guidé</h5></article></div>
+        <div class="col-md-6 col-lg-4"><article class="module-card"><span class="badge bg-success">Module 6</span><h5 class="mt-2">Déploiement et optimisation</h5></article></div>
+      </div>
+      <div class="row mt-4 g-3">
+        <div class="col-lg-6">
+          <div class="timeline">
+            <div class="timeline-item"><strong>Semaine 1</strong> - Fondamentaux</div>
+            <div class="timeline-item"><strong>Semaine 2</strong> - Prompting</div>
+            <div class="timeline-item"><strong>Semaine 3</strong> - Workflows</div>
+            <div class="timeline-item"><strong>Semaine 4</strong> - Productivité</div>
+            <div class="timeline-item"><strong>Semaine 5</strong> - Projet pratique</div>
+            <div class="timeline-item"><strong>Semaine 6</strong> - Déploiement</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="cert-card">
+            <h4>Carte de certification preview</h4>
+            <div class="p-4 border border-2 border-white rounded-3 bg-light mt-3">
+              <h5 class="mb-1">CLPrepas360°</h5>
+              <p class="mb-1">Certificat de réussite - Formation IA 2026</p>
+              <small>Validé après évaluation finale et projet guidé.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-methode" class="section scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Méthode pédagogique</h2></div>
+      <div class="row g-3">
+        <div class="col-md-4"><div class="feature-card">Cours vidéo HD</div></div>
+        <div class="col-md-4"><div class="feature-card">Exercices pratiques</div></div>
+        <div class="col-md-4"><div class="feature-card">Corrections personnalisées</div></div>
+        <div class="col-md-4"><div class="feature-card">2 sessions Zoom de groupe</div></div>
+        <div class="col-md-4"><div class="feature-card">Support communauté privée</div></div>
+        <div class="col-md-4"><div class="feature-card">Ressources téléchargeables</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-pourquoi" class="section bg-white scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Pourquoi nous choisir ?</h2></div>
+      <ul class="list-unstyled">
+        <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Approche orientée résultats terrain.</li>
+        <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Accompagnement humain + outils IA.</li>
+        <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Méthode applicable dès la première semaine.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-video" class="section scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Le guide du vibe-coding 2026</h2></div>
+      <div class="ratio ratio-16x9 video-frame">
+        <iframe src="https://www.youtube.com/embed/sbR-LmaIDOY" title="Le guide du vibe-coding 2026 quelle solution pour quel usage" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-temoignages" class="section bg-white scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Témoignages</h2></div>
+      <div class="row g-3">
+        <div class="col-md-4"><div class="testimonial-card"><p>"J'ai gagné 8h par semaine grâce aux automatisations."</p><strong>Léa F.</strong></div></div>
+        <div class="col-md-4"><div class="testimonial-card"><p>"Excellent équilibre entre théorie et pratique."</p><strong>Ahmed M.</strong></div></div>
+        <div class="col-md-4"><div class="testimonial-card"><p>"La certification CLPrepas360° renforce mon profil."</p><strong>Sophie C.</strong></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-tarifs" class="section scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>Tarifs et inscription</h2></div>
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-5">
+          <div class="price-card">
+            <h4>Pack Premium</h4>
+            <p class="display-6 text-success fw-bold">1 290 €</p>
+            <ul>
+              <li>6 modules</li><li>2 lives Zoom</li><li>Support</li><li>Certification</li>
+            </ul>
+            <div class="d-grid gap-2">
+              <a class="btn-inscription text-center" href="mailto:elhisse@clprepas.com?subject=Inscription%20Formation%20IA%202026">S'inscrire par email</a>
+              <a class="btn-whatsapp text-center" href="https://wa.me/33612345678?text=Bonjour,%20je%20m'int%C3%A9resse%20%C3%A0%20la%20Formation%20IA%202026" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="price-card">
+            <h4>Réserver ma place</h4>
+            <form id="inscriptionForm" class="row g-3" novalidate>
+              <div class="col-md-6"><label class="form-label" for="name">Nom complet</label><input class="form-control" id="name" required></div>
+              <div class="col-md-6"><label class="form-label" for="email">Email</label><input type="email" class="form-control" id="email" required></div>
+              <div class="col-md-6"><label class="form-label" for="phone">Téléphone</label><input type="tel" class="form-control" id="phone" required></div>
+              <div class="col-md-6"><label class="form-label" for="level">Niveau actuel en IA</label>
+                <select class="form-select" id="level" required><option value="">Sélectionner</option><option>Débutant</option><option>Intermédiaire</option><option>Avancé</option></select>
+              </div>
+              <div class="col-12"><button type="submit" class="btn-inscription w-100">Réserver ma place</button></div>
+              <div class="col-12"><small id="formMessage" class="text-muted"></small></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation-ia-2026-faq" class="section faq bg-white scroll-reveal">
+    <div class="container">
+      <div class="section-title"><h2>FAQ</h2></div>
+      <div class="accordion" id="faqAcc">
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1">Q1: Faut-il des prérequis techniques ?</button></h2><div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc"><div class="accordion-body">Non, accessible aux débutants.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q2">Q2: Quel est l'engagement hebdomadaire ?</button></h2><div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">3 à 4 heures/semaine.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q3">Q3: Les sessions Zoom sont-elles obligatoires ?</button></h2><div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Recommandées, replay disponible.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q4">Q4: Puis-je payer en plusieurs fois ?</button></h2><div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Oui, sur demande.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q5">Q5: Y a-t-il une garantie satisfaction ?</button></h2><div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Garantie 14 jours.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q6">Q6: Accès aux ressources après la formation ?</button></h2><div id="q6" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Oui, accès illimité.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q7">Q7: Certification reconnue ?</button></h2><div id="q7" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Certification CLPrepas360° fournie.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q8">Q8: Support technique inclus ?</button></h2><div id="q8" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Oui, support inclus.</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <h4>CLPrepas360°</h4>
+      <p class="mb-1"><a class="text-white" href="mailto:elhisse@clprepas.com">elhisse@clprepas.com</a></p>
+      <p class="mb-0">© 2026 CLPrepas360° - Formation IA 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script>
+    const observer = new IntersectionObserver((entries) => entries.forEach((entry) => entry.isIntersecting && entry.target.classList.add('visible')), {threshold: 0.15});
+    document.querySelectorAll('.scroll-reveal').forEach((el) => observer.observe(el));
+
+    document.getElementById('inscriptionForm').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      const data = {
+        name: document.getElementById('name').value.trim(),
+        email: document.getElementById('email').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        level: document.getElementById('level').value
+      };
+      const body = encodeURIComponent(`Nouvelle demande d'inscription Formation IA 2026\n\nNom: ${data.name}\nEmail: ${data.email}\nTéléphone: ${data.phone}\nNiveau IA: ${data.level}`);
+      window.location.href = `mailto:elhisse@clprepas.com?subject=Réservation%20Formation%20IA%202026&body=${body}`;
+      document.getElementById('formMessage').textContent = 'Votre client email va s\'ouvrir pour finaliser la demande.';
+    });
+  </script>
 </body>
 </html>
