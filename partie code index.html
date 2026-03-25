@@ -1,0 +1,138 @@
+body class="bg-light">
+
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">
+        CCQ – Le Livre
+      </a>
+      <span class="navbar-text small">
+        Prof Abderrahman El Hisse
+      </span>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Barre latérale : table des matières -->
+      <aside class="col-12 col-md-3 col-lg-2 border-end bg-white vh-100 overflow-auto" id="sidebar">
+        <div class="p-3">
+          <h2 class="h6 text-uppercase text-muted">Chapitres</h2>
+          <nav id="toc" class="nav nav-pills flex-column small">
+            <!-- Rempli par app.js à partir de chapters.json -->
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Zone de lecture principale -->
+      <main class="col-12 col-md-9 col-lg-10 d-flex flex-column min-vh-100">
+
+        <!-- Zone de contenu -->
+        <div id="reader" class="flex-grow-1 p-4">
+          <div id="loader" class="text-center my-5 d-none">
+            <div class="spinner-border" role="status" aria-hidden="true"></div>
+            <p class="mt-3">Chargement du chapitre...</p>
+          </div>
+
+          <article id="chapter-content" class="prose">
+            <!-- Contenu du chapitre chargé ici -->
+          </article>
+        </div>
+
+        <!-- Navigation bas de page -->
+        <footer class="border-top bg-white py-3">
+          <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center">
+              <a id="prev-link" href="#" class="btn btn-outline-secondary btn-sm disabled" aria-disabled="true">
+                ◀ Chapitre précédent
+              </a>
+              <span id="chapter-title-current" class="small text-muted">
+                <!-- Titre du chapitre courant -->
+              </span>
+              <a id="next-link" href="#" class="btn btn-primary btn-sm">
+                Chapitre suivant ▶
+              </a>
+            </div>
+          </div>
+        </footer>
+        <section id="about-author" class="mt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="author-ccq-card">
+          <div class="author-ccq-header">
+            <div class="author-ccq-avatar-wrapper">
+              <!-- Adaptez le chemin de la photo si besoin -->
+              <img src="media/Prof EL HISSE.png"
+                   alt="Photo de Prof Abderrahman EL HISSE"
+                   class="author-ccq-avatar">
+            </div>
+            <div class="author-ccq-title">
+              <p class="author-ccq-label">À propos de l’auteur</p>
+              <h2 class="author-ccq-name">
+                Prof Abderrahman <span>EL HISSE</span>
+              </h2>
+              <p class="author-ccq-role">
+                Prof agrégé de Physique-Chimie · Coach certifié · Auteur de
+                <span>Conscience Collective Quantique</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="author-ccq-body">
+            <p>
+              Prof Abderrahman EL HISSE est Professeur agrégé de Physique-Chimie
+              et coach certifié. Il a accompagné pendant plus de trente ans des
+              élèves et étudiants en classes préparatoires aux grandes écoles vers
+              la réussite académique et la confiance intérieure.
+            </p>
+            <p>
+              Fondateur de <strong>CL Prépas 360°</strong>, il développe des
+              approches qui unissent rigueur scientifique, pédagogie active et
+              travail sur la conscience.
+            </p>
+            <p>
+              Avec <em>Conscience Collective Quantique</em>, il propose une synthèse
+              personnelle entre physique moderne, développement de soi et
+              responsabilité collective, pour inviter le lecteur à regarder sa propre
+              vie comme un champ de possibilités à clarifier, choisir et assumer.
+            </p>
+
+            <ul class="author-ccq-highlights">
+              <li>30+ années d’expérience en classes préparatoires aux grandes écoles.</li>
+              <li>Expertise en électromagnétisme, physique quantique et méthodes de travail.</li>
+              <li>Accompagnement en confiance en soi, motivation et gestion du stress.</li>
+            </ul>
+          </div>
+
+          <div class="author-ccq-footer">
+            <a href="https://clprepas.com/" target="_blank" rel="noopener" class="author-ccq-link">
+              Visiter le site CL Prépas 360°
+            </a>
+            <a href="https://wa.me/212662605998?text=Bonjour%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20le%20livre%20CCQ."
+               target="_blank" rel="noopener"
+               class="author-ccq-link secondary">
+              Me contacter via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      </main>
+    </div>
+  </div>
+
+  <!-- JS Bootstrap (optionnel si vous n’utilisez pas les composants dynamiques) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+  </script>
+
+  <!-- Votre logique d’application -->
+  <script src="js/app.js"></script>
+</body>

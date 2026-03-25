@@ -1,0 +1,366 @@
+<h1>Chapitre 17 – Machines quantiques et suprématie quantique</h1>
+
+<!-- Contenu du chapitre 17 adapté pour l'application web -->
+<section id="section1" class="mb-5">
+                    <h2 class="section-title">1. Pourquoi parler de machines quantiques</h2>
+                    <p>Vous avez exploré dans ce livre la superposition, l'intrication, les champs quantiques, la conscience individuelle et la conscience collective quantique. Une question suit naturellement : que se passe-t-il quand l'être humain transforme ces lois en machines de calcul ? C'est l'objet de ce chapitre.</p>
+                    
+                    <div class="definition-box">
+                        <h5><i class="bi bi-bullseye me-2" style="color: var(--primary-quantum);"></i>Objectifs du chapitre</h5>
+                        <p class="mb-0 fs-5">Comprendre ce qu'est un ordinateur quantique, clarifier ce que signifie vraiment « suprématie quantique », voir les domaines d'application possibles sans tomber dans le fantasme ni le marketing.</p>
+                    </div>
+                    
+                    <div class="insight-box">
+                        <h6><i class="bi bi-lightbulb me-2" style="color: var(--accent-compute);"></i>Points à garder en tête</h6>
+                        <ul class="mb-0">
+                            <li>Les ordinateurs quantiques <strong>ne remplacent pas</strong> les ordinateurs classiques</li>
+                            <li>Ils <strong>ne sont pas magiques</strong></li>
+                            <li>Ils sont <strong>très puissants</strong> sur certains problèmes et <strong>sans intérêt</strong> sur beaucoup d'autres</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="important-box">
+                        <h6><i class="bi bi-arrow-return-right me-2" style="color: var(--accent-compute);"></i>Continuité avec les chapitres précédents</h6>
+                        <p class="mb-0">Les chapitres précédents ont exploré les principes fondamentaux de la physique quantique et leurs implications pour la conscience. Ce chapitre montre comment ces mêmes principes (superposition, intrication) deviennent des ressources technologiques pour traiter l'information d'une manière nouvelle, établissant un pont entre la théorie quantique et ses applications concrètes qui influenceront notre futur collectif.</p>
+                    </div>
+                    
+                    <div class="question-box">
+                        <h6><i class="bi bi-person-circle me-2" style="color: var(--collective-blue);"></i>Question pour vous</h6>
+                        <p class="mb-0 fs-5">Comment imaginez-vous que les machines quantiques pourraient transformer notre rapport à l'information et à la connaissance collective ?</p>
+                    </div>
+                </section>
+                
+                <!-- Section 2 -->
+                <section id="section2" class="mb-5 pt-4 border-top">
+                    <h2 class="section-title">2. Ordinateurs quantiques : principes</h2>
+                    
+                    <h3 class="subsection-title">2.1. Du bit classique au Qubit</h3>
+                    <p>Un ordinateur classique manipule des <strong>bits</strong> : deux états possibles (0 ou 1). À chaque instant un bit est soit 0 soit 1.</p>
+                    <p>Un ordinateur quantique manipule des <strong>Qubits</strong> : deux états de base (|0⟩ et |1⟩) mais un Qubit peut être dans une <strong>superposition</strong> des deux : α|0⟩ + β|1⟩ avec (α, β) des amplitudes complexes soumises à une condition de normalisation.</p>
+                    
+                    <div class="example-box">
+                        <h6><i class="bi bi-chat-square-text me-2" style="color: var(--algorithm-green);"></i>Exemple simple</h6>
+                        <p class="mb-0">Un qubit unique est comme une pièce de monnaie qui serait à la fois pile et face avant d'être observée. Avec 2 qubits, vous avez 4 états possibles (|00⟩, |01⟩, |10⟩, |11⟩) en superposition. Avec N qubits, vous avez 2ᴺ états simultanément - une croissance exponentielle qui permet un parallélisme quantique unique.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">2.2. Intrication et calcul quantique</h3>
+                    <p>Quand plusieurs Qubit interagissent ils peuvent devenir <strong>intriqués</strong>. Dans ce cas, l'état global ne se décompose plus en « état du qubit 1 » × « état du qubit 2 » - les résultats des mesures sont corrélés d'une manière impossible à reproduire avec de simples variables classiques.</p>
+                    
+                    <div class="argument-box">
+                        <h6><i class="bi bi-journal-text me-2" style="color: var(--primary-quantum);"></i>Logique du calcul quantique</h6>
+                        <p class="mb-0">Le calcul quantique exploite superposition et intrication. Dans un algorithme quantique, vous préparez un registre de qubits dans une superposition bien choisie, appliquez des portes quantiques (opérations unitaires), et organisez des interférences constructives pour les bonnes réponses et destructives pour les mauvaises. À la mesure, vous obtenez un résultat classique avec une probabilité amplifiée d'obtenir la réponse correcte.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">2.3. Mesure et décohérence</h3>
+                    <p>La <strong>mesure</strong> projette l'état quantique, donnant une suite classique de 0 et de 1 et détruisant la superposition initiale. La <strong>décohérence</strong> est l'interaction incontrôlée avec l'environnement (chaleur, vibrations) qui transforme les superpositions fragiles en mélanges classiques, perdant ainsi le comportement quantique utile.</p>
+                    
+                    <div class="example-box">
+                        <h6><i class="bi bi-chat-square-text me-2" style="color: var(--algorithm-green);"></i>Analogie avec les fentes de Young</h6>
+                        <p class="mb-0">Comme dans l'expérience des fentes de Young où l'observation détruit les interférences, la décohérence dans un ordinateur quantique efface les effets d'interférence nécessaires au calcul. C'est pourquoi ces machines doivent être extrêmement isolées et refroidies.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">2.4. Architectures physiques possibles</h3>
+                    <p>Plusieurs voies sont explorées pour réaliser des qubits :</p>
+                    
+                    <div class="table-responsive mt-3">
+                        <table class="table comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Technologie</th>
+                                    <th>Température</th>
+                                    <th>Avantages</th>
+                                    <th>Défis</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Qubits supraconducteurs</strong></td>
+                                    <td>Proche du zéro absolu</td>
+                                    <td>Contrôle précis, intégration</td>
+                                    <td>Décohérence, échelle</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ions piégés</strong></td>
+                                    <td>Ambiente à froide</td>
+                                    <td>Long temps de cohérence</td>
+                                    <td>Vitesse, mise à l'échelle</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Photons</strong></td>
+                                    <td>Ambiente</td>
+                                    <td>Faible décohérence</td>
+                                    <td>Génération, détection</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Spins dans solides</strong></td>
+                                    <td>Variable</td>
+                                    <td>Intégration potentielle</td>
+                                    <td>Contrôle, bruit</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <h3 class="subsection-title">2.5. Machines NISQ</h3>
+                    <p>Les machines actuelles sont souvent appelées <strong>NISQ</strong> (Noisy Intermediate-Scale Quantum) : « quantique intermédiaire et bruité ». Caractéristiques : quelques dizaines à centaines de qubits physiques, taux d'erreurs non négligeables, temps de cohérence limités, profondeur d'algorithmes restreinte.</p>
+                    
+                    <div class="viewpoint-box">
+                        <h6><i class="bi bi-person-bounding-box me-2" style="color: var(--secondary-tech);"></i>Point de vue personnel</h6>
+                        <p class="mb-0">Nous sommes dans une phase de transition fascinante : les machines NISQ sont des prototypes imparfaits mais déjà capables de démonstrations importantes. Elles représentent un laboratoire vivant où nous apprenons à maîtriser les effets quantiques à l'échelle technologique, préparant le terrain pour les futurs ordinateurs quantiques corrigés.</p>
+                    </div>
+                </section>
+                
+                <!-- Section 3 -->
+                <section id="section3" class="mb-5 pt-4 border-top">
+                    <h2 class="section-title">3. Notion de suprématie quantique</h2>
+                    
+                    <h3 class="subsection-title">3.1. Définition</h3>
+                    <p>Le terme <strong>suprématie quantique</strong> désigne la première démonstration expérimentale qu'un dispositif quantique résout une tâche de calcul donnée dans un temps raisonnable, hors de portée réaliste d'un supercalculateur classique.</p>
+                    
+                    <div class="important-box">
+                        <h6><i class="bi bi-exclamation-triangle me-2" style="color: var(--accent-compute);"></i>Précisions importantes</h6>
+                        <ul class="mb-0">
+                            <li>La tâche peut être <strong>artificielle</strong> (échantillonnage de circuit quantique aléatoire)</li>
+                            <li>Elle n'a pas forcément d'intérêt industriel direct</li>
+                            <li>Ce qui compte est le <strong>décalage de puissance</strong> entre machines classiques et quantiques</li>
+                        </ul>
+                    </div>
+                    
+                    <h3 class="subsection-title">3.2. Nature des démonstrations</h3>
+                    <p>Les démonstrations reposent souvent sur des circuits quantiques aléatoires, des tâches d'échantillonnage de distributions, et des comparaisons avec des simulations classiques coûteuses.</p>
+                    
+                    <div class="example-box">
+                        <h6><i class="bi bi-chat-square-text me-2" style="color: var(--algorithm-green);"></i>Scénario typique de démonstration</h6>
+                        <p class="mb-0">1. Choisir un circuit quantique exécutable expérimentalement<br>2. Le simuler autant que possible sur supercalculateur classique<br>3. Montrer qu'au-delà d'une certaine taille, la simulation classique devient inabordable alors que la machine quantique produit encore des échantillons<br>4. Valider statistiquement que les échantillons correspondent bien aux prédictions théoriques.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">3.3. Le problème du mot « suprématie »</h3>
+                    <p>Le mot pose plusieurs problèmes : il suggère une domination totale, porte une connotation politique lourde, et entretient une image spectaculaire peu fidèle à la réalité technique.</p>
+                    
+                    <div class="argument-box">
+                        <h6><i class="bi bi-journal-text me-2" style="color: var(--primary-quantum);"></i>Pour préférer « avantage quantique »</h6>
+                        <p class="mb-0">Un ordinateur quantique n'est pas supérieur partout, mais seulement sur certaines tâches bien définies. L'<strong>avantage quantique</strong> se définit problème par problème, permet une discussion plus nuancée, et évite de laisser croire à une rupture absolue. Dans un livre sur la conscience collective quantique, il est essentiel d'être attentif aux mots qui évoquent la domination.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">3.4. Limites actuelles</h3>
+                    <p>Même si des étapes importantes sont franchies, les limites restent nombreuses : bruit élevé, correction d'erreurs très coûteuse, nombre de qubits logiques (corrigés) encore très faible, difficulté à exécuter des algorithmes profonds sans perdre la cohérence.</p>
+                    
+                    <div class="argument-box">
+                        <h6><i class="bi bi-journal-text me-2" style="color: var(--primary-quantum);"></i>Trois horizons temporels</h6>
+                        <div class="table-responsive mt-3">
+                            <table class="table comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th>Horizon</th>
+                                        <th>Caractéristiques</th>
+                                        <th>Questions ouvertes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Court terme (NISQ)</strong></td>
+                                        <td>Qubits physiques, bruit élevé, algorithmes hybrides</td>
+                                        <td>Quelles applications utiles avec le bruit ? Comment optimiser les algorithmes hybrides ?</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Moyen terme</strong></td>
+                                        <td>Premiers qubits logiques corrigés, démonstrations plus complexes</td>
+                                        <td>Comment mettre à l'échelle la correction d'erreurs ? Quelles architectures seront dominantes ?</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Long terme</strong></td>
+                                        <td>Machines à grande échelle, qubits logiques stables</td>
+                                        <td>Quels problèmes résoudront-elles réellement ? Comment intégrer ces machines dans l'infrastructure informatique existante ?</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Section 4 -->
+                <section id="section4" class="mb-5 pt-4 border-top">
+                    <h2 class="section-title">4. Domaines d'application possibles</h2>
+                    
+                    <h3 class="subsection-title">4.1. Simulation de systèmes quantiques</h3>
+                    <p>C'est le domaine le plus naturel. Un système quantique complexe (grande molécule, matériau à fortes corrélations) est très difficile à simuler classiquement. Un ordinateur quantique, obéissant lui-même aux lois quantiques, peut représenter ces systèmes plus directement.</p>
+                    
+                    <div class="example-box">
+                        <h6><i class="bi bi-chat-square-text me-2" style="color: var(--algorithm-green);"></i>Exemple concret</h6>
+                        <p class="mb-0">Simuler une molécule comme la chlorophylle ou un catalyseur industriel sur un ordinateur classique nécessite des approximations qui limitent la précision. Un ordinateur quantique pourrait modéliser précisément les états électroniques, accélérant ainsi la découverte de nouveaux médicaments, matériaux ou procédés chimiques.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">4.2. Problèmes d'optimisation</h3>
+                    <p>Beaucoup de problèmes industriels se formulent en termes d'optimisation : trouver la meilleure solution parmi un nombre immense de possibilités (planification de routes, ordonnancement de tâches, gestion de portefeuilles).</p>
+                    
+                    <div class="argument-box">
+                        <h6><i class="bi bi-journal-text me-2" style="color: var(--primary-quantum);"></i>Scénario d'application</h6>
+                        <p class="mb-0">Une entreprise logistique pourrait utiliser un module quantique pour optimiser ses tournées de livraison. En évitant certains minima locaux où s'enlise l'optimisation classique, l'algorithme quantique hybride pourrait trouver des solutions plus efficaces, réduisant les coûts et l'impact environnemental.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">4.3. Cryptographie et sécurité</h3>
+                    <p>L'<strong>algorithme de Shor</strong> montre théoriquement qu'un ordinateur quantique assez puissant pourrait factoriser de grands nombres bien plus vite qu'un ordinateur classique, menaçant certains systèmes de chiffrement actuels.</p>
+                    
+                    <div class="important-box">
+                        <h6><i class="bi bi-shield-exclamation me-2" style="color: var(--accent-compute);"></i>Conséquences pratiques</h6>
+                        <p class="mb-0">Les communautés de sécurité anticipent déjà ces possibilités. Des schémas de <strong>cryptographie post-quantique</strong> (résistants aux attaques quantiques) sont en cours de standardisation. Une messagerie sécurisée aujourd'hui pourrait être vulnérable dans 20 ans si les clés ne sont pas renouvelées avec des méthodes post-quantiques.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">4.4. Intelligence artificielle et apprentissage quantique</h3>
+                    <p>On explore des pistes d'<strong>apprentissage automatique quantique</strong> : algorithmes quantiques pour certaines tâches de classification, variantes quantiques de réseaux de neurones, méthodes hybrides.</p>
+                    
+                    <div class="argument-box">
+                        <h6><i class="bi bi-journal-text me-2" style="color: var(--primary-quantum);"></i>Mise en garde nécessaire</h6>
+                        <p class="mb-0">Il faut se méfier du discours marketing « quantique + IA = tout-puissant ». Beaucoup de travaux sont encore exploratoires, et le vocabulaire est parfois en avance sur les preuves solides. Certaines structures de données complexes pourraient bénéficier d'outils quantiques, mais nous en sommes au stade d'une recherche active, pas d'une révolution établie.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">4.5. Lien avec les systèmes complexes et la conscience</h3>
+                    <p>Dans ce livre, vous <strong>ne réduisez pas</strong> la conscience à un calcul. Cependant, les ordinateurs quantiques montrent comment superposition, intrication et interférences peuvent être exploitées pour traiter l'information dans des espaces d'états de très grande dimension.</p>
+                    
+                    <div class="viewpoint-box">
+                        <h6><i class="bi bi-person-bounding-box me-2" style="color: var(--secondary-tech);"></i>Point de vue personnel</h6>
+                        <p class="mb-0">Ce chapitre sert de pont entre la technologie quantique et la réflexion sur la conscience collective quantique. Les machines quantiques nous montrent que la matière peut être organisée pour exploiter les principes quantiques à des fins de calcul. Cela nous invite à réfléchir : certains processus mentaux ou collectifs utilisent-ils des effets quantiques profonds ? La conscience émerge-t-elle de structures classiques complexes ou implique-t-elle autre chose dans la structure même de la réalité ?</p>
+                    </div>
+                </section>
+                
+                <!-- Section 5 -->
+                <section id="section5" class="mb-5 pt-4 border-top">
+                    <h2 class="section-title">5. Synthèse et ouverture</h2>
+                    
+                    <h3 class="subsection-title">5.1. Trois idées à retenir</h3>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-4 mb-4">
+                            <div class="concept-card concept-card-1 shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="color: var(--primary-quantum);">
+                                        <i class="bi bi-cpu me-2"></i>
+                                        Principe des ordinateurs quantiques
+                                    </h4>
+                                    <ul class="small mb-0">
+                                        <li>Qubits en superposition</li>
+                                        <li>Intrication de plusieurs qubits</li>
+                                        <li>Portes quantiques manipulant les amplitudes</li>
+                                        <li>Mesure finale après dynamique quantique</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 mb-4">
+                            <div class="concept-card concept-card-2 shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="color: var(--secondary-tech);">
+                                        <i class="bi bi-graph-up-arrow me-2"></i>
+                                        Suprématie/Avantage quantique
+                                    </h4>
+                                    <ul class="small mb-0">
+                                        <li>Capacité à résoudre une tâche hors de portée classique</li>
+                                        <li>Démonstrations sur problèmes ciblés</li>
+                                        <li>Notion à manier avec nuance</li>
+                                        <li>Préférer « avantage quantique »</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 mb-4">
+                            <div class="concept-card concept-card-3 shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="color: var(--accent-compute);">
+                                        <i class="bi bi-gear-wide-connected me-2"></i>
+                                        Applications possibles
+                                    </h4>
+                                    <ul class="small mb-0">
+                                        <li>Simulation de systèmes quantiques</li>
+                                        <li>Optimisation combinatoire</li>
+                                        <li>Cryptographie et sécurité</li>
+                                        <li>Apprentissage automatique quantique</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="argument-box">
+                        <h6><i class="bi bi-table me-2" style="color: var(--primary-quantum);"></i>Tableau récapitulatif</h6>
+                        <div class="table-responsive">
+                            <table class="table comparison-table mt-3">
+                                <thead>
+                                    <tr>
+                                        <th>Principe</th>
+                                        <th>Exemple</th>
+                                        <th>Bénéfice potentiel</th>
+                                        <th>Limites actuelles</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Superposition</td>
+                                        <td>Qubit α|0⟩ + β|1⟩</td>
+                                        <td>Parallélisme quantique</td>
+                                        <td>Décohérence rapide</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Intrication</td>
+                                        <td>États non séparables</td>
+                                        <td>Corrélations impossibles classiquement</td>
+                                        <td>Difficile à maintenir à grande échelle</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Suprématie quantique</td>
+                                        <td>Échantillonnage de circuits aléatoires</td>
+                                        <td>Preuve de principe de l'avantage quantique</td>
+                                        <td>Tâches souvent artificielles</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Simulation quantique</td>
+                                        <td>Chimie computationnelle</td>
+                                        <td>Nouveaux médicaments, matériaux</td>
+                                        <td>Requiert beaucoup de qubits logiques</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <h3 class="subsection-title">5.2. Place de ce chapitre dans votre livre</h3>
+                    
+                    <div class="concept-visual concept-visual-1">
+                        <div class="text-center">
+                            <i class="bi bi-link-45deg display-4" style="color: var(--primary-quantum);"></i>
+                            <h5 class="mt-3" style="color: var(--primary-quantum);">Chapitre de transition technologique</h5>
+                            <p class="small mb-0">Ce chapitre montre le prolongement technologique de la physique quantique et introduit une nouvelle manière de penser la manipulation de l'information dans un cadre quantique. Il relie les lois étudiées dans les chapitres précédents à des machines réelles qui tentent de les exploiter, ouvrant un espace de réflexion sur la différence profonde entre traiter de l'information et vivre une expérience consciente.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="viewpoint-box">
+                        <h6><i class="bi bi-person-bounding-box me-2" style="color: var(--secondary-tech);"></i>Ce que j'espère éveiller chez le lecteur</h6>
+                        <p class="mb-0">J'espère susciter une admiration lucide pour l'ingéniosité humaine qui sait exploiter les lois quantiques, mais aussi une claire distinction entre puissance de calcul et profondeur de conscience. Les machines quantiques sont des outils extraordinaires, mais elles ne créent pas par elles-mêmes de sens, d'éthique ou de conscience - ce qui reste le propre des êtres vivants et de leurs collectifs.</p>
+                    </div>
+                    
+                    <h3 class="subsection-title">5.3. Vers la conscience et la réalité quantique</h3>
+                    
+                    <div class="callout-box">
+                        <h4 class="text-white"><i class="bi bi-arrow-right-circle me-2"></i>Prochaines explorations</h4>
+                        <p class="text-white mb-0">Les chapitres suivants exploreront comment des systèmes naturels complexes (cerveau, sociétés, champ de conscience collective) se situent par rapport à ces machines quantiques, et si la conscience est un traitement d'information sophistiqué ou implique autre chose dans la structure même de la réalité. Nous examinerons aussi l'impact potentiel des technologies quantiques sur l'éducation, l'économie et la gouvernance, à travers le prisme de la conscience collective quantique.</p>
+                    </div>
+                    
+                    <div class="quote-block">
+                        <p>« Les ordinateurs quantiques sont aux lois de la physique quantique ce que les avions sont aux lois de l'aérodynamique : une application technologique brillante qui révèle la puissance des principes sous-jacents, mais qui ne les épuise pas. La conscience collective quantique nous invite à explorer une dimension plus profonde encore de ces mêmes lois. »</p>
+                    </div>
+                    
+                    <div class="question-box">
+                        <h6><i class="bi bi-person-circle me-2" style="color: var(--collective-blue);"></i>Question à garder avec vous</h6>
+                        <p class="mb-0 fs-5">Comment imaginez-vous que les progrès en informatique quantique pourraient influencer l'évolution de la conscience collective et notre façon de résoudre les défis mondiaux ?</p>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between mt-5">
+                        <a href="chapitre-16.html" class="btn btn-lg" style="background-color: var(--primary-quantum); color: white;">
+                            <i class="bi bi-arrow-left me-2"></i>Retour au chapitre 16
+                        </a>
+                        <a href="chapitre-18.html" class="btn btn-lg" style="background-color: var(--accent-compute); color: white;">
+                            Continuer vers le chapitre 18 <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </section>
